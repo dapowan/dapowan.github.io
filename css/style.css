@@ -37,7 +37,7 @@ a.theme-link {
 }
 
 a.resume-link {
-	color: #4f4f4f;
+	color: #363636;
 }
 
 .resume-link:hover{
@@ -368,12 +368,12 @@ a:hover{
 }
 
 .resume-profile-image {
-	max-width: 120px;
+	max-width: 150px;
 	margin-left: auto;
 	margin-right: auto;
 	vertical-align: middle;
 	border-style: none;
-	border-radius: 50% !important;
+	/*border-radius: 50% !important;*/
 	display: table-cell;
 
 }
@@ -386,6 +386,10 @@ a:hover{
 
 .resume-profile-text{
 	font-size: 1.5rem;
+}
+
+.resume-file-link{
+	font-size: 1.7rem;
 }
 
 .resume-section-heading {
@@ -442,3 +446,15 @@ a:hover{
 	margin-left: 15px;
 }
 
+.item-resource{
+	cursor: pointer;
+	color: black;
+	font-size: 1.7rem;
+}
+.item-resource a{
+	color: #363636;
+}
+
+.item-resource a:hover{
+	color: #54B689;
+}
