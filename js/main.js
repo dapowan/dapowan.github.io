@@ -21,63 +21,63 @@
 		});
 
 		// // Testimonial JS  //
-		// $('.testimonial-slider').owlCarousel({
-		// 	items:1,
-		// 	autoplay:false,
-		// 	autoplayTimeout:4500,
-		// 	smartSpeed: 1000,
-		// 	autoplayHoverPause:true,
-		// 	animateIn:'bounceInRight',
-		// 	animateOut:'bounceOutRight',
-		// 	loop:true,
-		// 	merge:true,
-		// 	nav:false,
-		// 	dots:true,
-		// });
+		$('.testimonial-slider').owlCarousel({
+			items:1,
+			autoplay:false,
+			autoplayTimeout:4500,
+			smartSpeed: 1000,
+			autoplayHoverPause:true,
+			animateIn:'bounceInRight',
+			animateOut:'bounceOutRight',
+			loop:true,
+			merge:true,
+			nav:false,
+			dots:true,
+		});
 		
 		
 		// Clients JS  //
-		// $('.clients-slider').owlCarousel({
-		// 	autoplay:true,
-		// 	autoplayTimeout:4500,
-		// 	margin:15,
-		// 	smartSpeed: 1000,
-		// 	autoplayHoverPause:true,
-		// 	loop:true,
-		// 	nav:true,
-		// 	dots:false,
-		// 	responsive:{
-		// 		300: {
-		// 			items:1,
-		// 		},
-		// 		480: {
-		// 			items:2,
-		// 		},
-		// 		768: {
-		// 			items:3,
-		// 			nav:false,
-		// 		},
-		// 		1170: {
-		// 			items:5,
-		// 			nav:true,
-		// 		}
-		// 	}
-		// });
+		$('.clients-slider').owlCarousel({
+			autoplay:true,
+			autoplayTimeout:4500,
+			margin:15,
+			smartSpeed: 1000,
+			autoplayHoverPause:true,
+			loop:true,
+			nav:true,
+			dots:false,
+			responsive:{
+				300: {
+					items:1,
+				},
+				480: {
+					items:2,
+				},
+				768: {
+					items:3,
+					nav:false,
+				},
+				1170: {
+					items:5,
+					nav:true,
+				}
+			}
+		});
 		
 		// Porgress Bar JS  //
-		// $('.progress.two .progress-bar').each(function () {
-		// 	var $this = $(this);
-		// 	var width = $(this).data('percent');
-		// 	$this.css({
-		// 		'transition': 'width 3s'
-		// 	});
-		// 	setTimeout(function () {
-		// 		$this.appear(function () {
-		// 			$this.css('width', width + '%');
-		// 		});
-		// 	}, 500);
-		// });
-		//
+		$('.progress.two .progress-bar').each(function () {
+			var $this = $(this);
+			var width = $(this).data('percent');
+			$this.css({
+				'transition': 'width 3s'
+			});
+			setTimeout(function () {
+				$this.appear(function () {
+					$this.css('width', width + '%');
+				});
+			}, 500);
+		});
+
 		
 		if ($.fn.onePageNav) {
 			$('#nav').onePageNav({
@@ -95,48 +95,48 @@
 		// });
 		
 		// Wow JS //
-		// var wow = new WOW(
-		// {
-		// 	boxClass:     'wow',      // animated element css class (default is wow)
-		// 	animateClass: 'animated', // animation css class (default is animated)
-		// 	offset:       0,          // distance to the element when triggering the animation (default is 0)
-		// 	mobile:       false,       // trigger animations on mobile devices (default is true)
-		// 	live:         true,       // act on asynchronously loaded content (default is true)
-		// 	callback:     function(box) {
-		// 	  // the callback is fired every time an animation is started
-		// 	  // the argument that is passed in is the DOM node being animated
-		// 	},
-		// 	scrollContainer: null // optional scroll container selector, otherwise use window
-		//   }
-		// );
-		// wow.init();
+		var wow = new WOW(
+		{
+			boxClass:     'wow',      // animated element css class (default is wow)
+			animateClass: 'animated', // animation css class (default is animated)
+			offset:       0,          // distance to the element when triggering the animation (default is 0)
+			mobile:       false,       // trigger animations on mobile devices (default is true)
+			live:         true,       // act on asynchronously loaded content (default is true)
+			callback:     function(box) {
+			  // the callback is fired every time an animation is started
+			  // the argument that is passed in is the DOM node being animated
+			},
+			scrollContainer: null // optional scroll container selector, otherwise use window
+		  }
+		);
+		wow.init();
 		
 		// Isotop JS //
-		// $(window).on('load', function() {
-		//
-		// 	if ($.fn.isotope) {
-        //         $(".isotop-active").isotope({
-        //             filter: '*',
-        //         });
-		//
-		// 			$('.works-menu ul li').on('click', function() {
-        //             $(".works-menu ul li").removeClass("active");
-        //             $(this).addClass("active");
-		//
-        //             var selector = $(this).attr('data-filter');
-        //             $(".isotop-active").isotope({
-        //                 filter: selector,
-        //                 animationOptions: {
-        //                     duration: 750,
-        //                     easing: 'easeOutCirc',
-        //                     queue: false,
-        //                 }
-        //             });
-        //             return false;
-        //         });
-        //     }
-		// });
-		//
+		$(window).on('load', function() {
+
+			if ($.fn.isotope) {
+                $(".isotop-active").isotope({
+                    filter: '*',
+                });
+
+					$('.works-menu ul li').on('click', function() {
+                    $(".works-menu ul li").removeClass("active");
+                    $(this).addClass("active");
+
+                    var selector = $(this).attr('data-filter');
+                    $(".isotop-active").isotope({
+                        filter: selector,
+                        animationOptions: {
+                            duration: 750,
+                            easing: 'easeOutCirc',
+                            queue: false,
+                        }
+                    });
+                    return false;
+                });
+            }
+		});
+
 		/*======================================
 			Animate Scroll JS
 		======================================*/ 

@@ -7,7 +7,16 @@ function index_render(data){
 
     var header = new Vue({
         el: 'header',
-        data:data.header
+        data:data.header,
+        mounted: function () {
+            this.$nextTick(function () {
+                $('#nav').slicknav({
+                    'label' : '',
+                    'prependTo': '.mobile-menu',
+
+                });
+            })
+        }
     });
 
     var index_container = new Vue({
@@ -23,6 +32,8 @@ function index_render(data){
     //     el: '#container',
     //     data: data
     // });
+
+
 }
 
 
