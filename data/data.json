@@ -1,0 +1,128 @@
+{
+  "head": {
+    "title": "Huatao Xu",
+    "icon": "images/SJTU.png"
+  },
+  "header":
+  {
+    "index": true,
+    "news": true,
+    "research": true,
+    "publication": true,
+    "share": false
+  },
+  "name_en": "Huatao Xu",
+  "name_zn": "徐华韬",
+  "name_tag": "Master Student",
+  "tel": "+86 15221276575",
+  "email": "xuhuatao@sjtu.edu.cn",
+  "website": "dapowan@github.io",
+  "github": "https://github.com/dapowan",
+  "scholar": "https://scholar.google.com/citations?user=QafNtQIAAAAJ",
+  "city": "Shanghai",
+  "avatar": "images/default.JPG",
+  "introduction": "I am a third-year master student from <a href=\"http://english.seiee.sjtu.edu.cn/\">SEIEE</a> of <a href=\"http://en.sjtu.edu.cn/\">Shanghai Jiao Tong University (SJTU)</a>, advised by Prof. Dong Wang.\n                                I received my B.S. degree from the School of Software of <a href=\"https://www.nju.edu.cn/EN/\">Nanjing University (NJU)</a>.\n                                <br>\n                                <br>\n                                I am broadly interested in ubiquitous computing, especially in related fields of building wireless-based sensing interfaces to bridge gaps between computing resources and human's daily lives. My current research focuses on RFID Sensing, including Localization, Behavior Recognition, Authentication, etc.\n                                <br>",
+  "cv_url": "files/resume-xht.pdf",
+  "education": [
+    {
+      "school": "Shanghai Jiao Tong University, SJTU",
+      "major": "Master of Software Engineering",
+      "period": "Sept. 2017 - Mar. 2020"
+    },
+    {
+      "school": "Nanjing University, NJU",
+      "major": "Bachelor of Software Engineering",
+      "period": "Sept. 2013 - Jun. 2017"
+    }
+  ],
+  "publication": [
+    {
+      "title": "FaHo: Deep Learning Enhanced Holographic Localization for RFID tags",
+      "url": "https://dl.acm.org/citation.cfm?id=3360035",
+      "author": ["Huatao Xu", "Dong Wang", "Run Zhao", "Qian Zhang"],
+      "author_order": 1,
+      "conf_or_jour": "ACM SenSys 2019",
+      "resource":{
+        "paper_url": "files/FaHo.pdf",
+        "slide_url": "files/FaHo.pptx"
+      }
+    },
+    {
+      "title": "AdaRF: Adaptive RFID-based Indoor Localization Using Deep Learning Enhanced Holography",
+      "url": "https://dl.acm.org/citation.cfm?doid=3361560.3351271",
+      "author": ["Huatao Xu", "Dong Wang", "Run Zhao", "Qian Zhang"],
+      "author_order": 1,
+      "conf_or_jour": "ACM IMWUT (UbiComp) 2019",
+      "resource":{
+        "paper_url": "files/AdaRF.pdf",
+        "slide_url": "files/AdaRF.pptx"
+      }
+    },
+    {
+      "title": "PEC: Synthetic Aperture RFID Localization with Aperture Position Error Compensation",
+      "url": "https://ieeexplore.ieee.org/document/8824882",
+      "author": ["Run Zhao", "Dong Wang", "Qian Zhang", "Haonan Chen", "Huatao Xu"],
+      "author_order": 5,
+      "conf_or_jour": "IEEE SECON 2019",
+      "resource":{
+        "paper_url": "files/PEC.pdf",
+        "slide_url": "files/PEC.pptx"
+      }
+    },
+    {
+      "title": "PRMS: Phase and RSSI based Localization System for Tagged Objects on Multilayer with a Single Antenna",
+      "url": "https://dl.acm.org/citation.cfm?id=3242138",
+      "author": ["Huatao Xu", "Run Zhao", "Qian Zhang", "Dong Wang"],
+      "author_order": 1,
+      "conf_or_jour": "ACM MSWiM 2018",
+      "resource":{
+        "paper_url": "files/PRMS.pdf",
+        "slide_url": "files/PRMS.pptx"
+      }
+    }
+  ],
+  "honor_award": [
+    "2019 Shanghai Outstanding Graduate Student",
+    "2019 China National Scholarship",
+    "2017-2019 Shanghai Jiao Tong University First-class Scholarship",
+    "2016 Nanjing University Inspirational Scholarship"
+  ],
+  "news":[
+    {
+      "date": "Jan. 2020",
+      "content": "Successfully defend my master's thesis."
+    },
+    {
+      "date": "Nov. 2019",
+      "content": "Attend <span class=\"item-bold\">SenSys 2019</span> in New York, USA."
+    },
+    {
+      "date": "Sept. 2019",
+      "content": "Attend <span class=\"item-bold\">Ubicomp 2019</span> in London, UK."
+    },
+    {
+      "date": "Aug. 2019",
+      "content": "Our paper \"FaHo\" has been accepted by <span class=\"item-bold\">SenSys 2019</span>."
+    },
+    {
+      "date": "Jul. 2019",
+      "content": "Our paper \"AdaRF\" has been accepted by <span class=\"item-bold\">Ubicomp 2019</span> after a cycle of major revisions."
+    },
+    {
+      "date": "Apr. 2019",
+      "content": "Our paper \"PEC\" has been accepted by <span class=\"item-bold\">SECON 2019</span>."
+    },
+    {
+      "date": "Nov. 2018",
+      "content": "Attend <span class=\"item-bold\">MSWiM 2019</span> in Montreal, Canada."
+    },
+    {
+      "date": "Apr. 2019",
+      "content": "Our paper \"PRMS\" has been accepted by <span class=\"item-bold\">MSWiM 2018</span>."
+    }
+  ],
+  "language": ["Chinese", "English"],
+  "hobby": ["Travelling", "Swimming", "Singing", "Cooking"],
+  "information": "Latest updated by Jan. 2020",
+  "message": ""
+}

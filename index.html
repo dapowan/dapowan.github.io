@@ -1,250 +1,191 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html lang="en" xmlns:v-bind="http://www.w3.org/1999/xhtml">
+<head >
+    <title>Huatao Xu</title>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Huatao Xu</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-<!--    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300i,400,400i,500,600,700,800,900" rel="stylesheet">-->
+    <!--    <link href="https://fonts.googleapis.com/css?family=Fira+Sans:300i,400,400i,500,600,700,800,900" rel="stylesheet">-->
+
+    <link rel="icon" type="image/png" href="images/SJTU.png" />
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/slicknav.min.css">
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <!-- Xman CSS -->
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/png" href="images/SJTU.png"/>
     <link rel="stylesheet" href="css/responsive.css">
 </head>
 
-<body>
-    <!-- Header Area -->
-    <header id="header" class="header shadow-lg">
-        <div class="header-inner">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-sm-2 col-xs-12">
-
-                    </div>
-                    <div class="col-md-9 col-sm-10 col-xs-12">
-                        <div class="mobile-menu"></div>
-                        <nav class="navbar navbar-default">
-                            <div class="collapse navbar-collapse">
-                                <ul id="nav" class="nav navbar-nav">
-                                    <li class="current"><a href="index.html">Home</a></li>
-                                    <li><a href="news.html">News</a></li>
-                                    <li><a href="research.html">Research</a></li>
-                                    <li><a href="publication.html">Publication</a></li>
-                                    <li><a href="share.html">Share</a></li>
-                                </ul>
-                            </div>
-                        </nav>
-                    </div>
+<body >
+<!-- Header Area -->
+<header class="header shadow-lg">
+    <div class="header-inner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-2 col-xs-12">
+                </div>
+                <div class="col-md-9 col-sm-10 col-xs-12">
+                    <div class="mobile-menu"></div>
+                    <nav class="navbar navbar-default">
+                        <div class="collapse navbar-collapse">
+                            <ul id="nav" class="nav navbar-nav">
+                                <li class="current" v-if="index"><a href="index.html">Home</a></li>
+                                <li v-if="news"><a href="news.html">News</a></li>
+                                <li v-if="research"><a href="research.html">Research</a></li>
+                                <li v-if="publication"><a href="publication.html">Publication</a></li>
+                                <li v-if="share"><a href="share.html">Share</a></li>
+                            </ul>
+                        </div>
+                    </nav>
                 </div>
             </div>
         </div>
-        <!--/ End Header Inner -->
-    </header>
-    <!-- End Header Area -->
-    <div class="main-wrapper">
-        <div class="container">
-            <article class="shadow-lg resume-wrapper">
-                <div class="row">
-                    <div class="resume-title col-sm-12 col-md-6 col-lg-8">
-                        <h2 class="resume-name text-uppercase">Huatao Xu</h2>
-                        <h2 class="resume-name text-uppercase">徐 华韬</h2>
-                        <div class="resume-tag ">Master Student</div>
-                    </div><!--//resume-title-->
-                    <div class="resume-contact col-sm-12 col-md-6 col-lg-4">
-                        <ul class="list-unstyled list-contact">
-                            <li class="mb-2"><i class="fas fa-phone-square fa-fw fa-lg mr-2 "></i><a class="resume-link" href="tel:#">+86 15221276575</a></li>
-                            <li class="mb-2"><i class="fas fa-envelope-square fa-fw fa-lg mr-2"></i><a class="resume-link" href="mailto:#">xuhuatao@sjtu.edu.cn</a></li>
-                            <li class="mb-2"><i class="fas fa-globe fa-fw fa-lg mr-2"></i><a class="resume-link" href="https://dapowan.github.io/">dapowan@github.io</a></li>
-                            <li class="mb-0"><i class="fas fa-map-marker-alt fa-fw fa-lg mr-2"></i>Shanghai</li>
-                        </ul>
-                    </div><!--//resume-contact-->
-
-                </div><!--//resume-header-->
-                <hr>
-                <div class="resume-intro">
-                    <div class="row flex-column">
-                        <div class="col-sm-12 col-md-4 col-lg-3"><img class="resume-profile-image" src="images/default.JPG" alt="image"></div>
-
-                        <div class="resume-profile-text col-sm-12 col-md-8 col-lg-9">
-                            <p class="mb-0">
-<!--                                Summarise your career here. <a class="theme-link" href="#" target="file">CV</a>.-->
-                                I am a third-year master student from <a href="http://english.seiee.sjtu.edu.cn/">SEIEE</a> of <a href="http://en.sjtu.edu.cn/">Shanghai Jiao Tong University (SJTU)</a>, advised by Prof. Dong Wang.
-                                I received my B.S. degree from the School of Software of <a href="https://www.nju.edu.cn/EN/">Nanjing University (NJU)</a>.
-                                <br>
-                                <br>
-                                I am broadly interested in ubiquitous computing, especially in related fields of building wireless-based sensing interfaces to bridge gaps between computing resources and human's daily lives. My current research focuses on RFID Sensing, including Localization, Behavior Recognition, Authentication, etc.
-                                <br>
-                                <a href="files/resume-xht.pdf" class="resume-file-link">[CV]</a>
-                            </p>
-                        </div><!--//media-body-->
-                    </div>
-
-                </div><!--//resume-intro-->
-                <hr>
-                <div class="resume-body">
-                    <div class="row">
-                        <div class="resume-main col-sm-12 col-md-8 col-lg-8">
-                            <section class="project-section py-3">
-                                <h3 class="text-uppercase resume-section-heading mb-4">Education</h3>
-                                <div class="item mb-3">
-                                    <div class="item-heading row align-items-center mb-2">
-                                        <div class="item-major col-sm-12 col-md-6 col-lg-8">Master of Software Engineering</div>
-                                        <div class="item-meta col-sm-12 col-md-6 col-lg-4">Sept. 2017 - Mar. 2020</div>
-                                    </div>
-                                    <div class="item-school">Shanghai Jiao Tong University, SJTU</div>
-                                </div><!--//item-->
-                                <div class="item mb-3">
-                                    <div class="item-heading row align-items-center mb-2">
-                                        <div class="item-major col-sm-12 col-md-6 col-lg-8">Bachelor of Software Engineering</div>
-                                        <div class="item-meta col-sm-12 col-md-6 col-lg-4">Sept. 2013 - Jun. 2017</div>
-                                    </div>
-                                    <div class="item-school">Nanjing University, NJU</div>
-                                </div><!--//item-->
-                            </section><!--//project-section-->
-
-                            <section class="publication-section py-3">
-                                <h3 class="text-uppercase resume-section-heading mb-4">Publications</h3>
-                                <div class="item mb-3">
-                                    <a href="https://dl.acm.org/citation.cfm?id=3360035" target="_blank"><h4 class="item-title mb-2 ">FaHo: Deep Learning Enhanced Holographic Localization for RFID tags</h4></a>
-                                    <div class="item-author"><span class="item-myself">Huatao Xu</span>, Dong Wang, Run Zhao, Qian Zhang </div>
-                                    <div class="item-conf-jour">ACM SenSys 2019</div>
-                                    <div class="item-resource">
-                                        <a href="files/FaHo.pdf"><i class="fa fa-file-pdf"></i></a>
-                                        <a href="files/FaHo.pptx"><i class="fa fa-file-image"></i></a>
-                                    </div>
-                                </div>
-                                <div class="item mb-3">
-                                    <a href="https://dl.acm.org/citation.cfm?doid=3361560.3351271" target="_blank"><h4 class="item-title mb-2 ">AdaRF: Adaptive RFID-based Indoor Localization Using Deep Learning Enhanced Holography</h4></a>
-                                    <div class="item-author"><span class="item-myself">Huatao Xu</span>, Dong Wang, Run Zhao, Qian Zhang </div>
-                                    <div class="item-conf-jour">ACM IMWUT (UbiComp) 2019</div>
-                                    <div class="item-resource">
-                                        <a href="files/AdaRF.pdf"><i class="fa fa-file-pdf"></i></a>
-                                        <a href="files/AdaRF.pptx"><i class="fa fa-file-image"></i></a>
-                                    </div>
-                                </div>
-                                <div class="item mb-3">
-                                    <a href="https://ieeexplore.ieee.org/document/8824882" target="_blank"><h4 class="item-title mb-2 ">PEC: Synthetic Aperture RFID Localization with Aperture Position Error Compensation</h4></a>
-                                    <div class="item-author">Run Zhao, Dong Wang, Qian Zhang, Haonan Chen, <span class="item-myself">Huatao Xu</span></div>
-                                    <div class="item-conf-jour">IEEE SECON 2019</div>
-                                    <div class="item-resource">
-                                        <a href="files/PEC.pdf"><i class="fa fa-file-pdf"></i></a>
-                                        <a href="files/PEC.pptx"><i class="fa fa-file-image"></i></a>
-                                    </div>
-                                </div>
-                                <div class="item mb-3">
-                                    <a href="https://dl.acm.org/citation.cfm?id=3242138" target="_blank"><h4 class="item-title mb-2 ">PRMS: Phase and RSSI based Localization System for Tagged Objects on Multilayer with a Single Antenna</h4></a>
-                                    <div class="item-author"><span class="item-myself">Huatao Xu</span>, Run Zhao, Qian Zhang, Dong Wang </div>
-                                    <div class="item-conf-jour">ACM MSWiM 2018</div>
-                                    <div class="item-resource">
-                                        <a href="files/PRMS.pdf"><i class="fa fa-file-pdf"></i></a>
-                                        <a href="files/PRMS.pptx"><i class="fa fa-file-image"></i></a>
-                                    </div>
-                                </div>
-                            </section><!--//work-section-->
-
-                            <section class="honor-award-section py-3">
-                                <h3 class="text-uppercase resume-section-heading mb-4">Honor & Award</h3>
-                                <ul class="news-list">
-                                    <li>2019 Shanghai Outstanding Graduate Student.</li>
-                                    <li>2019 China National Scholarship.</li>
-                                    <li>2017-2019 Shanghai Jiao Tong University First-class Scholarship.</li>
-                                    <li>2016 Nanjing University Inspirational Scholarship.</li>
-                                </ul>
-
-                            </section><!--//work-section-->
-
-                        </div><!--//resume-main-->
-                        <aside class="resume-aside col-sm-12 col-md-4 col-lg-4">
-
-                            <section class="education-section py-3">
-                                <h3 class="text-uppercase resume-section-heading mb-4">News</h3>
-                                <ul class="news-list">
-                                    <li class="mb-2">
-                                        <div class="item-news-date">Jan. 2020</div>
-                                        <div class="item-news-content">Successfully defend my master's thesis.</div>
-                                    </li>
-                                    <li class="mb-2">
-                                        <div class="item-news-date">Nov. 2019</div>
-                                        <div class="item-news-content">Attend <span class="item-bold">SenSys 2019</span> in New York, USA.</div>
-                                    </li>
-                                    <li class="mb-2">
-                                        <div class="item-news-date">Sept. 2019</div>
-                                        <div class="item-news-content">Attend <span class="item-bold">Ubicomp 2019</span> in London, UK.</div>
-                                    </li>
-                                    <li class="mb-2">
-                                        <div class="item-news-date">Aug. 2019</div>
-                                        <div class="item-news-content">Our paper "FaHo" has been accepted by <span class="item-bold">SenSys 2019</span>.</div>
-                                    </li>
-                                    <li class="mb-2">
-                                        <div class="item-news-date">Jul. 2019</div>
-                                        <div class="item-news-content">Our paper "AdaRF" has been accepted by <span class="item-bold">Ubicomp 2019</span> after a cycle of major revisions.</div>
-                                    </li>
-                                    <li class="mb-2">
-                                        <div class="item-news-date">Apr. 2019</div>
-                                        <div class="item-news-content">Our paper "PEC" has been accepted by <span class="item-bold">SECON 2019</span>.</div>
-                                    </li>
-                                    <li class="mb-2">
-                                        <div class="item-news-date">Nov. 2018</div>
-                                        <div class="item-news-content">Attend <span class="item-bold">MSWiM 2019</span> in Montreal, Canada.</div>
-                                    </li>
-                                    <li class="mb-2">
-                                        <div class="item-news-date">Jul. 2018</div>
-                                        <div class="item-news-content">Our paper "PRMS" has been accepted by <span class="item-bold">MSWiM 2018</span>.</div>
-                                    </li>
-                                </ul>
-                            </section><!--//education-section-->
-
-                            <section class="skills-section py-3">
-                                <h3 class="text-uppercase resume-section-heading mb-4">Languages</h3>
-                                <ul class="list-unstyled resume-lang-list">
-                                    <li class="mb-2">Chinese <span class="text-muted">(Native)</span></li>
-                                    <li>English <span class="text-muted"></span></li>
-                                </ul>
-                            </section><!--//certificates-section-->
-                            <section class="skills-section py-3">
-                                <h3 class="text-uppercase resume-section-heading mb-4">Hobby</h3>
-                                <ul class="list-unstyled resume-interests-list mb-0">
-                                    <li class="mb-2">Travelling</li>
-                                    <li class="mb-2">Swimming</li>
-                                    <li class="mb-2">Singing</li>
-                                    <li>Cooking</li>
-                                </ul>
-                            </section><!--//certificates-section-->
-
-                        </aside><!--//resume-aside-->
-                    </div><!--//row-->
-                </div><!--//resume-body-->
-                <hr>
-                <div class="resume-footer text-center">
-                    <ul class="resume-social-list list-inline mx-auto mb-0 d-inline-block text-muted">
-                        <li class="list-inline-item mb-lg-0 mr-3"><a class="resume-link" href="https://github.com/dapowan"><i class="fab fa-github-square fa-2x mr-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">dapowan</span></a></li>
-                        <li class="list-inline-item mb-lg-0 mr-3"><a class="resume-link" href="https://scholar.google.com/citations?user=QafNtQIAAAAJ"><i class="fab fa-google fa-2x mr-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">Huatao Xu</span></a></li>
-<!--                        <li class="list-inline-item mb-lg-0 mr-lg-3"><a class="resume-link" href="#"><i class="fab fa-twitter-square fa-2x mr-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">@twittername</span></a></li>-->
-                    </ul>
-                </div><!--//resume-footer-->
-            </article>
-
-        </div><!--//container-->
-
-        <footer class="footer text-center py-4">
-            <small class="copyright"> Latest updated by Jan. 2020</small>
-
-        </footer>
-
     </div>
+    <!--/ End Header Inner -->
+</header>
+<!-- End Header Area -->
+<div class="main-wrapper" id="container">
+    <div class="container">
+        <article class="shadow-lg resume-wrapper">
+            <div class="row">
+                <div class="resume-title col-sm-12 col-md-6 col-lg-8">
+                    <h2 class="resume-name text-uppercase">{{name_en}}</h2>
+                    <h2 class="resume-name text-uppercase">{{name_zn}}</h2>
+                    <div class="resume-tag ">{{name_tag}}</div>
+                </div><!--//resume-title-->
+                <div class="resume-contact col-sm-12 col-md-6 col-lg-4">
+                    <ul class="list-unstyled list-contact">
+                        <li class="mb-2"><i class="fas fa-phone-square fa-fw fa-lg mr-2 "></i><a class="resume-link" href="tel:#">{{tel}}</a></li>
+                        <li class="mb-2"><i class="fas fa-envelope-square fa-fw fa-lg mr-2"></i><a class="resume-link" href="mailto:#">{{email}}</a></li>
+                        <li class="mb-2"><i class="fas fa-globe fa-fw fa-lg mr-2"></i><a class="resume-link" href="https://dapowan.github.io/">{{website}}</a></li>
+                        <li class="mb-0"><i class="fas fa-map-marker-alt fa-fw fa-lg mr-2"></i>{{city}}</li>
+                    </ul>
+                </div><!--//resume-contact-->
+
+            </div><!--//resume-header-->
+            <hr>
+            <div class="resume-intro">
+                <div class="row flex-column">
+                    <div class="col-sm-12 col-md-4 col-lg-3"><img class="resume-profile-image" v-bind:src="avatar" alt="image"></div>
+
+                    <div class="resume-profile-text col-sm-12 col-md-8 col-lg-9">
+                        <p class="mb-0">
+                            <span v-html="introduction"></span>
+                            <a v-bind:href="cv_url" class="resume-file-link">[CV]</a>
+                        </p>
+                    </div><!--//media-body-->
+                </div>
+
+            </div><!--//resume-intro-->
+            <hr>
+            <div class="resume-body">
+                <div class="row">
+                    <div class="resume-main col-sm-12 col-md-8 col-lg-8">
+                        <section class="project-section py-3">
+                            <h3 class="text-uppercase resume-section-heading mb-4">Education</h3>
+
+                            <div class="item mb-3" v-for="item in education">
+                                <div class="item-heading row align-items-center mb-2">
+                                    <div class="item-major col-sm-12 col-md-6 col-lg-8">{{item.major}}</div>
+                                    <div class="item-meta col-sm-12 col-md-6 col-lg-4">{{item.period}}</div>
+                                </div>
+                                <div class="item-school">{{item.school}}</div>
+                            </div><!--//item-->
+                        </section><!--//project-section-->
+
+                        <section class="publication-section py-3">
+                            <h3 class="text-uppercase resume-section-heading mb-4">Publications</h3>
+                            <div class="item mb-3" v-for="item in publication">
+                                <a v-bind:href="item.url" target="_blank"><h4 class="item-title mb-2 ">{{item.title}}</h4></a>
+                                <div class="item-author">
+                                    <span v-for="(item_author, index_author) in item.author">
+                                        <span v-if="index_author != 0">, </span>
+                                        <span v-if="item.author_order == index_author + 1" class="item-myself">{{item_author}}</span>
+                                        <span v-else>{{item_author}}</span>
+                                    </span>
+                                </div>
+                                <div class="item-conf-jour">{{item.conf_or_jour}}</div>
+                                <div class="item-resource">
+                                    <a v-if="item.resource.hasOwnProperty('paper_url')" v-bind:href="item.resource.paper_url"><i class="fa fa-file-pdf"></i></a>
+                                    <a v-if="item.resource.hasOwnProperty('slide_url')" v-bind:href="item.resource.slide_url"><i class="fa fa-file-image"></i></a>
+                                    <a v-if="item.resource.hasOwnProperty('video_url')" v-bind:href="item.resource.video_url"><i class="fa fa-file-video"></i></a>
+                                </div>
+                            </div>
+
+                        </section><!--//work-section-->
+
+                        <section class="honor-award-section py-3">
+                            <h3 class="text-uppercase resume-section-heading mb-4">Honor & Award</h3>
+                            <ul class="news-list">
+                                <li v-for="item in honor_award">{{item}}</li>
+                            </ul>
+
+                        </section><!--//work-section-->
+
+                    </div><!--//resume-main-->
+                    <aside class="resume-aside col-sm-12 col-md-4 col-lg-4">
+
+                        <section class="education-section py-3">
+                            <h3 class="text-uppercase resume-section-heading mb-4">News</h3>
+                            <ul class="news-list">
+                                <li v-for="item in news" class="mb-2">
+                                    <div class="item-news-date">{{item.date}}</div>
+                                    <div class="item-news-content" v-html="item.content"></div>
+                                </li>
+                            </ul>
+                        </section><!--//education-section-->
+
+                        <section class="skills-section py-3">
+                            <h3 class="text-uppercase resume-section-heading mb-4">Languages</h3>
+                            <ul class="list-unstyled resume-lang-list">
+                                <li class="mb-2" v-for="(item, index) in language">
+                                    {{item}}
+                                    <span v-if="index == 0" class="text-muted">(Native)</span>
+                                </li>
+                            </ul>
+                        </section><!--//certificates-section-->
+                        <section class="skills-section py-3">
+                            <h3 class="text-uppercase resume-section-heading mb-4">Hobby</h3>
+                            <ul class="list-unstyled resume-interests-list mb-0">
+                                <li v-for="item in hobby" class="mb-2">{{item}}</li>
+                            </ul>
+                        </section><!--//certificates-section-->
+
+                    </aside><!--//resume-aside-->
+                </div><!--//row-->
+            </div><!--//resume-body-->
+            <hr>
+            <div class="resume-footer text-center">
+                <ul class="resume-social-list list-inline mx-auto mb-0 d-inline-block text-muted">
+                    <li class="list-inline-item mb-lg-0 mr-3"><a class="resume-link" href="https://github.com/dapowan"><i class="fab fa-github-square fa-2x mr-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">dapowan</span></a></li>
+                    <li class="list-inline-item mb-lg-0 mr-3"><a class="resume-link" href="https://scholar.google.com/citations?user=QafNtQIAAAAJ"><i class="fab fa-google fa-2x mr-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">Huatao Xu</span></a></li>
+                    <!--                        <li class="list-inline-item mb-lg-0 mr-lg-3"><a class="resume-link" href="#"><i class="fab fa-twitter-square fa-2x mr-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">@twittername</span></a></li>-->
+                </ul>
+            </div><!--//resume-footer-->
+        </article>
+
+    </div><!--//container-->
 
 
-    <script src="js/jquery.min.js">  </script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/jquery.nav.js"></script>
-    <script src="js/jquery.slicknav.min.js"></script>
 
-    <script src="js/main.js"></script>
-    <script src="js/all.min.js"></script>
+</div>
+
+<footer class="footer text-center py-4">
+    <small class="copyright"> {{information}}</small>
+</footer>
+
+
+<script src="js/jquery.min.js">  </script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery.nav.js"></script>
+<script src="js/jquery.slicknav.min.js"></script>
+
+<script src="js/main.js"></script>
+<script src="js/all.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="js/index-vue.js"></script>
 </body>
 </html>
