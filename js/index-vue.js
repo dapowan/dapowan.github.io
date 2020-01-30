@@ -1,3 +1,30 @@
+function index_render(data){
+
+    // var head = new Vue({
+    //     el: 'head',
+    //     data:data.head
+    // });
+
+    var header = new Vue({
+        el: 'header',
+        data:data.header
+    });
+
+    var index_container = new Vue({
+        el: '#container',
+        data:data
+    });
+
+    var footer = new Vue({
+        el: 'footer',
+        data:data
+    });
+    // var container = new Vue({
+    //     el: '#container',
+    //     data: data
+    // });
+}
+
 
 function loadJSON(callback) {
 
@@ -17,15 +44,11 @@ function init() {
     loadJSON(function(response) {
         // Parse JSON string into object
         var actual_JSON = JSON.parse(response);
-        console.log(actual_JSON)
+        console.log(actual_JSON);
+        index_render(actual_JSON);
     });
 }
 
 init();
 
-var app = new Vue({
-    el: '#app',
-    data: {
-        message: 'Hello Vue!'
-    }
-})
+
