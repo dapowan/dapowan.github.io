@@ -459,3 +459,14 @@ a:hover{
 .item-resource a:hover{
 	color: #54B689;
 }
+
+.news-image-box{
+	height: 300px;
+	width: 300px;
+	margin-top: 20px;
+}
+
+.news-image-box > img{
+	height: 100%;
+	width: 100%;
+}
