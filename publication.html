@@ -50,7 +50,30 @@
 <div class="main-wrapper" id="container">
     <div class="container">
         <article class="shadow-lg resume-wrapper">
-            <hr>
+            <div class="row">
+                <div class="resume-main col-sm-12 col-md-12 col-lg-12">
+                    <section class="publication-section">
+                        <h3 class="text-uppercase resume-section-heading mb-4">Publications</h3>
+                        <div class="item mb-3" v-for="item in publication">
+                            <a v-bind:href="item.url" target="_blank"><h4 class="item-title mb-2 ">{{item.title}}</h4></a>
+                            <div class="item-author">
+                                    <span v-for="(item_author, index_author) in item.author">
+                                        <span v-if="index_author != 0">, </span>
+                                        <span v-if="item.author_order == index_author + 1" class="item-myself">{{item_author}}</span>
+                                        <span v-else>{{item_author}}</span>
+                                    </span>
+                            </div>
+                            <div class="item-conf-jour">{{item.conf_or_jour}}</div>
+                            <div class="item-resource">
+                                <a v-if="item.resource.hasOwnProperty('paper_url')" v-bind:href="item.resource.paper_url"><i class="fa fa-file-pdf"></i></a>
+                                <a v-if="item.resource.hasOwnProperty('slide_url')" v-bind:href="item.resource.slide_url"><i class="fa fa-file-image"></i></a>
+                                <a v-if="item.resource.hasOwnProperty('video_url')" v-bind:href="item.resource.video_url"><i class="fa fa-file-video"></i></a>
+                            </div>
+                        </div>
+                    </section><!--//work-section-->
+
+                </div><!--//resume-main-->
+            </div><!--//row-->
         </article>
 
     </div><!--//container-->

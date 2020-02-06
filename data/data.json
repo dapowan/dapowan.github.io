@@ -121,8 +121,37 @@
       "content": "Our paper \"PRMS\" has been accepted by <span class=\"item-bold\">MSWiM 2018</span>."
     }
   ],
+  "research": [
+    {
+      "topic": "RFID Sensing",
+      "project": [
+        {
+          "name": "Localization",
+          "intro": "Analyze the features of RFID signals and design robust indoor localization to locate RFID tags accurately. We propose deep learning enhance holography (DLEH) to design adaptive localization model by combing RFID based synthetic aperture radar (SAR) and convolutional neural network (CNN). We also introduce compress sensing algorithms into RFID localization.",
+          "publication": [
+            {
+              "title": "FaHo",
+              "url": "https://dl.acm.org/citation.cfm?id=3360035"
+            },
+            {
+              "title": "AdaRF",
+              "url": "https://dl.acm.org/citation.cfm?doid=3361560.3351271"
+            },
+            {
+              "title": "PEC",
+              "url": "https://ieeexplore.ieee.org/document/8824882"
+            },
+            {
+              "title": "PRMS",
+              "url": "https://dl.acm.org/citation.cfm?id=3242138"
+            }
+          ]
+        }
+      ]
+    }
+  ],
   "language": ["Chinese", "English"],
   "hobby": ["Travelling", "Swimming", "Singing", "Cooking"],
-  "information": "Latest updated by Jan. 2020",
+  "information": "Latest updated by Feb. 2020",
   "message": ""
 }

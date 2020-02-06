@@ -57,8 +57,8 @@
                             <h3 class="text-uppercase resume-section-heading mb-4">News</h3>
                             <ul class="news-list">
                                 <li v-for="item in news" class="mb-2">
-                                    <div class="item-news-date">{{item.date}}</div>
-                                    <div class="item-news-content" v-html="item.content"></div>
+                                    <div class="item-news-date">[{{item.date}}] <span class="item-news-content" v-html="item.content"></span></div>
+
                                     <div v-if="item.hasOwnProperty('images')"  class="row">
                                         <div v-for="image in item.images" class="col-sm-12 col-md-4 col-lg-3 news-image-box"><img v-bind:src="image"></div>
                                     </div>
@@ -70,13 +70,6 @@
                 </div><!--//row-->
             </div><!--//resume-body-->
             <hr>
-            <div class="resume-footer text-center">
-                <ul class="resume-social-list list-inline mx-auto mb-0 d-inline-block text-muted">
-                    <li class="list-inline-item mb-lg-0 mr-3"><a class="resume-link" href="https://github.com/dapowan"><i class="fab fa-github-square fa-2x mr-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">dapowan</span></a></li>
-                    <li class="list-inline-item mb-lg-0 mr-3"><a class="resume-link" href="https://scholar.google.com/citations?user=QafNtQIAAAAJ"><i class="fab fa-google fa-2x mr-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">Huatao Xu</span></a></li>
-                    <!--                        <li class="list-inline-item mb-lg-0 mr-lg-3"><a class="resume-link" href="#"><i class="fab fa-twitter-square fa-2x mr-2" data-fa-transform="down-4"></i><span class="d-none d-lg-inline-block text-muted">@twittername</span></a></li>-->
-                </ul>
-            </div><!--//resume-footer-->
         </article>
 
     </div><!--//container-->

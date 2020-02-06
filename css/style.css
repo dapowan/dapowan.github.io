@@ -1,17 +1,25 @@
 
 /* body */
+html{height: 100%;}
 body{
 	font-family: 'Fira Sans', sans-serif;
 	font-weight: 400;
 	font-size:1.4rem;
-	color:#363636;
 	position:relative;
+	color:#363636;
+	min-height: 100%;
 }
 h1,h2,h3,h4,h5,h6{
 	color: #292929;
 	/*font-weight: bold;*/
 }
 
+footer{
+	height: 20px;
+	position: absolute;
+	bottom: 4px;
+	width: 100%;
+}
 /*a,button{*/
 /*	-webkit-transition:all 0.3s ease;*/
 /*	-moz-transition:all 0.3s ease;*/
@@ -469,4 +477,9 @@ a:hover{
 .news-image-box > img{
 	height: 100%;
 	width: 100%;
+}
+
+.related_pub{
+	margin-top: 1rem;
+	font-weight: 600;
 }
