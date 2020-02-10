@@ -483,3 +483,7 @@ a:hover{
 	margin-top: 1rem;
 	font-weight: 600;
 }
+
+.control-btn{
+	cursor: pointer;
+}

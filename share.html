@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:v-bind="http://www.w3.org/1999/xhtml">
+<html lang="en" xmlns:v-bind="http://www.w3.org/1999/xhtml" xmlns:v-on="http://www.w3.org/1999/xhtml">
 <head >
     <title>Huatao Xu</title>
     <meta charset="utf-8">
@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
+<!--    <link rel="stylesheet" href="css/mediaelementplayer.min.css">-->
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 
@@ -50,7 +51,20 @@
 <div class="main-wrapper" id="container">
     <div class="container">
         <article class="shadow-lg resume-wrapper">
+<!--            <audio class="audio" controls="controls" id="player" src="music/1.mp3">-->
+<!--&lt;!&ndash;                <source type="audio/mp3" src="music/1.mp3">&ndash;&gt;-->
+<!--            </audio>-->
+            <audio class="audio" id="player" src="music/1.mp3">
+                <!--                <source type="audio/mp3" src="music/1.mp3">-->
+            </audio>
             <hr>
+            <div>
+                <span class="control-btn" v-on:click="next_or_pre(-1)"><i class="fa fa-step-backward"></i></span>
+                <span class="control-btn" id="btn-control" v-on:click="play_or_stop"><i id="icon-play" class="fa fa-play"></i></span>
+                <span class="control-btn" v-on:click="next_or_pre(-1)"><i class="fa fa-step-forward"></i></span>
+                <i onclick="document.getElementById('player').volume+=0.1">Volume Up</i>
+                <i onclick="document.getElementById('player').volume-=0.1">Volume Down</i>
+            </div>
         </article>
 
     </div><!--//container-->
@@ -69,9 +83,9 @@
 <script src="js/all.min.js"></script>
 <script src="js/jquery.nav.js"></script>
 <script src="js/jquery.slicknav.min.js"></script>
+<!--<script src="js/mediaelement-and-player.min.js"></script>-->
 <!--<script src="js/main.js"></script>-->
 
-
-<script src="js/index-vue.js"></script>
+<script src="js/share.js"></script>
 </body>
 </html>
