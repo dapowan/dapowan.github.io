@@ -54,16 +54,44 @@
 <!--            <audio class="audio" controls="controls" id="player" src="music/1.mp3">-->
 <!--&lt;!&ndash;                <source type="audio/mp3" src="music/1.mp3">&ndash;&gt;-->
 <!--            </audio>-->
-            <audio class="audio" id="player" src="music/1.mp3">
+            <audio class="audio" id="player" >
                 <!--                <source type="audio/mp3" src="music/1.mp3">-->
             </audio>
             <hr>
-            <div>
-                <span class="control-btn" v-on:click="next_or_pre(-1)"><i class="fa fa-step-backward"></i></span>
-                <span class="control-btn" id="btn-control" v-on:click="play_or_stop"><i id="icon-play" class="fa fa-play"></i></span>
-                <span class="control-btn" v-on:click="next_or_pre(-1)"><i class="fa fa-step-forward"></i></span>
-                <i onclick="document.getElementById('player').volume+=0.1">Volume Up</i>
-                <i onclick="document.getElementById('player').volume-=0.1">Volume Down</i>
+            <div class="row">
+                <div class="col-sm-12 col-md-3 col-lg-2">
+                    <div class="control-group">
+                        <span class="control-btn mr-2" v-on:click="next_or_pre(-1)"><i class="fa fa-step-backward "></i></span>
+                        <span class="control-btn mr-2" id="btn-control" v-on:click="play_or_stop"><i class="fa fa-play"></i></span>
+                        <span class="control-btn mr-2" v-on:click="next_or_pre(1)"><i class="fa fa-step-forward"></i></span>
+                    </div>
+
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-8">
+                    <div>
+                        <span>{{current_song_name}}</span> -
+                        <span>{{current_song_singer}}</span>
+                        <span class="tag-time">
+                            <span>{{tag_current_time}}</span> /
+                            <span>{{tag_total_time}}</span>
+                        </span>
+                    </div>
+                    <div class="audio-progress">
+                        <div id="container-progress" class="all-progress">
+                            <div id="progress-current" class="current-progress">
+                            <span id="btn-progress" class="progress-button">
+                                <span class="progress-button-center"></span>
+                            </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-3 col-lg-2">
+                    <span class="control-btn" v-on:click="change_mode"><i id="icon-play-mode" class="fa fa-list"></i></span>
+                    <i onclick="document.getElementById('player').volume+=0.1">Volume Up</i>
+                    <i onclick="document.getElementById('player').volume-=0.1">Volume Down</i>
+                </div>
+
             </div>
         </article>
 
