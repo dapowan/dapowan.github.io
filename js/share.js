@@ -95,7 +95,7 @@ function index_render(data){
                 }else if(this.play_mode === 1){
                     this.current_song = Math.floor(Math.random() * songs_num);
                 }
-                $('#btn-control svg').attr('data-icon','pause');
+                $('#btn-control svg').attr('data-icon','pause-circle');
                 this.play_state = 1;
                 this.update_song_information(this.songs[this.current_song]);
                 this.player.play();
