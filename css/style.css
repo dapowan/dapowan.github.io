@@ -59,12 +59,19 @@ a.resume-link {
 .mb-2, .my-2 {
 	margin-bottom: 0.75rem !important;
 }
+.ml-1 {
+	margin-left: 0.5rem !important;
+}
 .ml-2 {
 	margin-left: 1rem !important;
 }
 .mr-2 {
 	margin-right: 1rem !important;
 }
+.mr-3 {
+	margin-right: 1.2rem !important;
+}
+
 .pb-3, .py-3 {
 	padding-bottom: 1rem !important;
 }
@@ -496,13 +503,20 @@ a:hover{
 
 .control-btn{
 	cursor: pointer;
-
 }
 
+.hover-grey:hover{
+	color: #333;
+}
+.hover-green:hover{
+	color: #28a968;
+}
 .control-group{
-	font-size: 2.5rem;
+	font-size: 3rem;
 	margin-left: auto;
 	margin-right: auto;
+	width: 12rem;
+	color: #42BC7F;
 }
 
 .tag-time{
@@ -528,7 +542,8 @@ a:hover{
 	width: 0;
 	border-radius: 0.2rem;
 	height: 0.4rem;
-	background-color: #1e7e34;
+	/*background-color: #1e7e34;*/
+	background-color: #42BC7F;
 }
 
 .progress-button{
@@ -539,11 +554,16 @@ a:hover{
 	background-color: white;
 	border-radius: 0.5rem;
 	position: relative;
-	border:0.1rem solid grey ;
-	box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,0.175) !important;
+	border:0.1rem solid #42bc7f ;
+
 	cursor: pointer;
 	top: -0.3rem;
 	left: 100%;
+}
+
+.progress-button:hover{
+	border:0.1rem solid #28a968;
+	box-shadow: 0 0.5rem 1.5rem rgba(0,0,0,0.175) !important;
 }
 
 .progress-button-center{
@@ -558,5 +578,93 @@ a:hover{
 	right: 0;
 	top: 0;
 	bottom: 0;
-	background-color: #1e7e34;
+	background-color: #42BC7F;
+}
+
+.container-audio{
+	position: fixed;
+	bottom: 4px;
+	width: 100%;
+	z-index: 9999;
+}
+
+@media (min-width: 1200px){
+	.container-audio-wrapper{
+		width: 970px;
+	}
+}
+
+@media (min-width: 992px){
+	.container-audio-wrapper {
+		width: 750px;
+	}
+}
+
+@media (min-width: 768px){
+	.container-audio-wrapper {
+		width: 750px;
+	}
+}
+
+.container-audio-wrapper{
+	margin: 0 auto;
+}
+
+.audio-box{
+	/*background-color: #b1ff99;*/
+	background-color: whitesmoke;
+	box-shadow: 0 1rem 3rem rgba(0,0,0,0.175) !important;
+	border: 1px solid rgba(0,0,0,0.025);
+	padding: 1rem 1rem;
+}
+
+.audio-box-control{
+	margin: 1rem auto 0.5rem auto;
+	cursor: pointer;
+	width: 4rem;
+	/*background-color: #54B689;*/
+	background-color: #42BC7F;
+	color: whitesmoke;
+	box-shadow: 0 1rem 3rem rgba(0,0,0,0.175) !important;
+	border: 1px solid rgba(0,0,0,0.025);
+	text-align: center;
+}
+
+.control-group-right{
+	font-size: 2rem;
+	margin-top: 0.7rem;
+	color: gray;
+}
+
+.audio-volume{
+	width: 100%;
+	margin-left: 0;
+	padding: 0.5rem 0;
+	cursor: pointer;
+}
+
+.all-volume{
+	width: 100%;
+	border-radius: 0.2rem;
+	height: 0.4rem;
+	background-color: grey;
+	overflow: visible;
+
+}
+
+.current-volume{
+	width: 50%;
+	border-radius: 0.2rem;
+	height: 0.4rem;
+	/* background-color: #1e7e34; */
+	background-color: #42BC7F;
+}
+
+.control-group-right-item{
+	display: inline-block;
+}
+
+.audio-volume-container{
+	width: 40%;
+
 }

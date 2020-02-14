@@ -20,8 +20,9 @@ function index_render(data){
     });
 
     var index_container = new Vue({
-        el: '#container',
+        el: '#container-audio',
         data:{
+            box_state:true,
             play_state:0, // 0 pause 1 play
             play_mode:0, // 0顺序 1随机 2单曲循环
             current_song_name:'',
@@ -32,7 +33,6 @@ function index_render(data){
             total_time:1.0,
             tag_total_time: '00:00',
             progress_btn_state:false,
-            volume:document.getElementById('player').volume,
             path:'music/',
             song_list:['1.mp3','2.mp3'],
             songs:[
@@ -60,14 +60,26 @@ function index_render(data){
             }
         },
         methods: {
+            show_or_hide:function(event){
+                event.stopPropagation();
+                if(this.box_state)
+                {
+                    $('#btn-box-control svg').attr('data-icon','chevron-up');
+                }
+                else{
+                    $('#btn-box-control svg').attr('data-icon','chevron-down');
+                }
+                this.box_state = !this.box_state;
+                $('#audio-box').slideToggle();
+            },
             play_or_stop: function (event) {
                 if(this.play_state === 0)
                 {
-                    $('#btn-control svg').attr('data-icon','pause');
+                    $('#btn-control svg').attr('data-icon','pause-circle');
                     this.player.play();
                 }
                 else{
-                    $('#btn-control svg').attr('data-icon','play');
+                    $('#btn-control svg').attr('data-icon','play-circle');
                     this.player.pause();
                 }
                 this.play_state = 1 - this.play_state;
@@ -116,12 +128,22 @@ function index_render(data){
                     }
                 }
             },
+            set_volume:function(event){
+                offset_left = $('#progress-volume').offset().left;
+                length_progress = $('#progress-volume').width();
+                dx = event.clientX - offset_left;
+                var per = Math.max(Math.min(Math.floor(dx / length_progress * 1000) / 10, 100.0), 0.0) + '%';
+                $('#progress-current-volume').css('width', per);
+                this.player.volume = Math.max(Math.min(Math.floor(dx / length_progress * 100) / 100, 100.0), 0.0);
+
+            },
             format_time(sec){
                 return (Math.floor(sec / 60) / 100).toFixed(2).slice(-2) + ":" + (sec % 60 / 100).toFixed(2).slice(-2)
             }
         },
         mounted: function () {
             this.$nextTick(function () {
+                this.player.volume = 0.5;
                 this.player.oncanplay = function () {
                     index_container.total_time = index_container.player.duration;
                 };
@@ -132,11 +154,8 @@ function index_render(data){
                     length_progress = $('#container-progress').width();
                     document.onmousemove = function(e2) {
                         e2 = e2 || window.event;
-                        // console.log(e2.clientX);
                         dx = e2.clientX - offset_left;
-                        console.log(dx);
                         var per = Math.max(Math.min(Math.floor(dx / length_progress * 1000) / 10, 100.0), 0.0) + '%';
-                        console.log(per);
                         $('#progress-current').css('width', per);
                     };
                     // document.onmouseup = function(){
