@@ -18,8 +18,15 @@ function index_render(data){
             })
         }
     });
+    var footer = new Vue({
+        el: 'footer',
+        data:data
+    });
+}
 
-    var index_container = new Vue({
+function audio_render(data){
+
+    var player_container = new Vue({
         el: '#container-audio',
         data:{
             box_state:true,
@@ -33,22 +40,8 @@ function index_render(data){
             total_time:1.0,
             tag_total_time: '00:00',
             progress_btn_state:false,
-            path:'music/',
-            song_list:['1.mp3','2.mp3'],
-            songs:[
-                {
-                    name:'淘汰',
-                    singer:'陈奕迅(Eason Chen)',
-                    album:'认了吧',
-                    file:'1.mp3'
-                },
-                {
-                    name:'宏愿',
-                    singer:'周柏豪(Pakho)',
-                    album:'Follow',
-                    file:'2.mp3'
-                }
-            ],
+            path:data.path,
+            songs:data.songs,
             player:document.getElementById('player')
         },
         watch:{
@@ -100,12 +93,19 @@ function index_render(data){
                 this.update_song_information(this.songs[this.current_song]);
                 this.player.play();
             },
+            play_song:function(index){
+                this.current_song = index;
+                $('#btn-control svg').attr('data-icon','pause-circle');
+                this.play_state = 1;
+                this.update_song_information(this.songs[this.current_song]);
+                this.player.play();
+            },
             change_mode:function () {
-                this.play_state = (this.play_state + 1) % 3;
+                this.play_mode = (this.play_mode + 1) % 3;
                 let icon_class = '';
-                if(this.play_state === 0){
+                if(this.play_mode === 0){
                     icon_class = 'list';
-                }else if(this.play_state === 1){
+                }else if(this.play_mode === 1){
                     icon_class = 'random';
                 }else{
                     icon_class = 'retweet';
@@ -145,11 +145,11 @@ function index_render(data){
             this.$nextTick(function () {
                 this.player.volume = 0.5;
                 this.player.oncanplay = function () {
-                    index_container.total_time = index_container.player.duration;
+                    player_container.total_time = player_container.player.duration;
                 };
                 this.update_song_information(this.songs[0]);
                 $('#btn-progress').mousedown(function(e1) {
-                    index_container.progress_btn_state = true;
+                    player_container.progress_btn_state = true;
                     offset_left = $('#container-progress').offset().left;
                     length_progress = $('#container-progress').width();
                     document.onmousemove = function(e2) {
@@ -158,49 +158,57 @@ function index_render(data){
                         var per = Math.max(Math.min(Math.floor(dx / length_progress * 1000) / 10, 100.0), 0.0) + '%';
                         $('#progress-current').css('width', per);
                     };
-                    // document.onmouseup = function(){
-                    //     document.onmousemove = null; //弹起鼠标不做任何操作
-                    // }
                     document.onmouseup = function (e3) {
-                        if(index_container.progress_btn_state){
+                        if(player_container.progress_btn_state){
                             document.onmousemove = null;
                             dx = e3.pageX - offset_left;
                             per = Math.max(Math.min(Math.floor(dx / length_progress * 1000) / 1000, 1.00), 0.00);
-                            new_time = per * index_container.player.duration;
-                            index_container.player.currentTime = new_time;
-                            index_container.current_time = new_time;
-                            index_container.progress_btn_state = false;
+                            new_time = per * player_container.player.duration;
+                            player_container.player.currentTime = new_time;
+                            player_container.current_time = new_time;
+                            player_container.progress_btn_state = false;
                         }
 
                     };
                 });
                 setInterval(function () {
-                    index_container.update_current_time();
+                    player_container.update_current_time();
                 }, 1000)
             })
         }
     });
-    // $('audio').mediaelementplayer({
-    //     features: ['playpause','progress','current','tracks','fullscreen']
-    // });
-    var footer = new Vue({
-        el: 'footer',
-        data:data
+
+    var song_container = new Vue({
+        el: '#container',
+        data:{
+            songs:data.songs
+        },
+        methods: {
+            hover_over:function (index) {
+                $('#table-song #' + index).css('opacity', 1.0);
+            },
+            hover_out:function (index) {
+                $('#table-song #' + index).css('opacity', 0.0);
+            },
+            play_music:function (index) {
+                player_container.play_song(index);
+            }
+        },
+        mounted: function () {
+            this.$nextTick(function () {
+                // $('#table-song').bootstrapTable({
+                //     pagination: true,
+                //     pageSize:20,
+                // })
+            })
+        }
     });
-    // var container = new Vue({
-    //     el: '#container',
-    //     data: data
-    // });
-
-
 }
 
-
-function loadJSON(callback) {
-
+function loadJSON(callback, url) {
     var xobj = new XMLHttpRequest();
     xobj.overrideMimeType("application/json");
-    xobj.open('GET', 'data/data.json', true); // Replace 'my_data' with the path to your file
+    xobj.open('GET', url, true); // Replace 'my_data' with the path to your file
     xobj.onreadystatechange = function () {
         if (xobj.readyState == 4 && xobj.status == "200") {
             // Required use of an anonymous callback as .open will NOT return a value but simply returns undefined in asynchronous mode
@@ -210,15 +218,15 @@ function loadJSON(callback) {
     xobj.send(null);
 }
 
-function init() {
+function init(func, url) {
     loadJSON(function(response) {
-        // Parse JSON string into object
         var actual_JSON = JSON.parse(response);
-        console.log(actual_JSON);
-        index_render(actual_JSON);
-    });
+        // console.log(actual_JSON);
+        func(actual_JSON);
+    }, url);
 }
 
-init();
+init(index_render,'data/data.json');
+init(audio_render,'data/songs.json');
 
 

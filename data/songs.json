@@ -1,0 +1,18 @@
+{
+  "path": "songs/",
+  "songs":
+  [
+    {
+      "name":"淘汰",
+      "singer":"陈奕迅(Eason Chen)",
+      "album":"认了吧",
+      "file":"淘汰.mp3"
+    },
+    {
+      "name":"宏愿",
+      "singer":"周柏豪(Pakho)",
+      "album":"Follow",
+      "file":"宏愿.mp3"
+    }
+  ]
+}

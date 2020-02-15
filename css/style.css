@@ -668,3 +668,28 @@ a:hover{
 	width: 40%;
 
 }
+
+.table-bordered {
+	border: 0px solid #ddd;
+}
+
+.table-bordered>tbody>tr>td, .table-bordered>thead>tr>td, .table-bordered>thead>tr>th {
+	 border: 0px solid #ddd;
+}
+
+.table-bordered>thead>tr{
+	border-bottom: 2px solid #ddd;
+}
+
+.table-bordered>tbody>tr{
+	border-bottom: 1px solid #ddd;
+}
+
+tbody>tr:hover{
+	background-color: rgba(177, 255, 153, 0.5);
+}
+
+.table-play-icon{
+	opacity: 0;
+	cursor: pointer;
+}
