@@ -679,6 +679,7 @@ a:hover{
 
 .table-bordered>thead>tr{
 	border-bottom: 2px solid #ddd;
+	border-top: 2px solid #ddd;
 }
 
 .table-bordered>tbody>tr{
@@ -686,7 +687,7 @@ a:hover{
 }
 
 tbody>tr:hover{
-	background-color: rgba(177, 255, 153, 0.5);
+	/*background-color: rgba(177, 255, 153, 0.5) !important;*/
 }
 
 .table-play-icon{

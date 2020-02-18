@@ -28,11 +28,6 @@ function index_render(data){
         el: 'footer',
         data:data
     });
-    // var container = new Vue({
-    //     el: '#container',
-    //     data: data
-    // });
-
 
 }
 

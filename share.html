@@ -17,7 +17,6 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/responsive.css">
-<!--    <link rel="stylesheet" href="css/mediaelementplayer.min.css">-->
     <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
 </head>
 
@@ -52,6 +51,9 @@
 <div class="main-wrapper" id="container">
     <div class="container">
         <article class="shadow-lg resume-wrapper">
+            <h3 class="text-uppercase resume-section-heading mb-4">{{title}}</h3>
+            <p style="white-space: pre-line;">{{intro}}</p>
+            <span></span>
             <div class="table-responsive">
                 <table id="table-song" class="table  table-borderless" >
                     <caption></caption>
@@ -66,12 +68,12 @@
                     </tr>
                     </thead>
                     <tbody>
-                    <tr v-for="(song, index) in songs" v-on:mouseover="hover_over(index)" v-on:mouseleave="hover_out(index)">
+                    <tr v-for="(song, index) in songs" v-bind:id="'song-'+index">
                         <td>{{((index + 1) / 100).toFixed(2).slice(-2)}}</td>
                         <td>{{song.name}}</td>
                         <td>
-                            <span v-if="song.hasOwnProperty('file')" class="table-play-icon" v-bind:id="index" v-on:click="play_music(index)">
-                                <i class="fa fa-play"></i>
+                            <span v-if="song.hasOwnProperty('file')" class="table-play-icon" v-bind:id="'btn-play-'+index">
+                                <i class="fa fa-play " v-bind:id="'icon-'+index"></i>
                             </span>
                             <span v-else>   </span>
                         </td>

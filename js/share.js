@@ -181,25 +181,39 @@ function audio_render(data){
     var song_container = new Vue({
         el: '#container',
         data:{
-            songs:data.songs
+            songs:data.songs,
+            title:data.title,
+            intro:data.intro,
+            message:data.message,
+            current_song:-1
         },
         methods: {
-            hover_over:function (index) {
-                $('#table-song #' + index).css('opacity', 1.0);
-            },
-            hover_out:function (index) {
-                $('#table-song #' + index).css('opacity', 0.0);
-            },
-            play_music:function (index) {
-                player_container.play_song(index);
-            }
         },
         mounted: function () {
             this.$nextTick(function () {
-                // $('#table-song').bootstrapTable({
-                //     pagination: true,
-                //     pageSize:20,
-                // })
+                $('#table-song').bootstrapTable({
+                    pagination: true,
+                    pageSize:20,
+                });
+                $('#table-song tr').bind('mouseover', function (el) {
+                    id = (this.id).split('-')[1];
+                    $('#btn-play-' + id).css('opacity', 1.0);
+                    $('#song-' + id).css('background-color','rgba(177, 255, 153, 0.5)');
+                });
+                $('#table-song tr').bind('mouseleave', function (el) {
+                    id = (this.id).split('-')[1];
+                    $('#btn-play-' + id).css('opacity', 0.0);
+                    if(song_container.current_song !== parseInt(id)){
+                        $('#song-' + id).css('background-color','');
+                    }
+                });
+                $('.table-play-icon').bind('click',function (e1) {
+                    $('#song-' + song_container.current_song).css('background-color','');
+                    id = (this.id).split('-')[2];
+                    song_container.current_song = parseInt(id);
+                    $('#song-' + id).css('background-color','rgba(177, 255, 153, 0.5)');
+                    player_container.play_song(parseInt(id));
+                })
             })
         }
     });
