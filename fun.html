@@ -37,7 +37,7 @@
                                 <li v-if="news"><a href="news.html">News</a></li>
                                 <li v-if="research"><a href="research.html">Research</a></li>
                                 <li v-if="publication"><a href="publication.html">Publication</a></li>
-                                <li class="current" v-if="share"><a href="share.html">Share</a></li>
+                                <li class="current" v-if="fun"><a href="fun.html">Share</a></li>
                             </ul>
                         </div>
                     </nav>
@@ -97,7 +97,9 @@
 
 <div class="container container-audio" id="container-audio">
     <div class="container-audio-wrapper">
-        <audio class="audio" id="player" ></audio>
+        <audio class="audio" id="player" autoplay></audio>
+        <iframe src="./songs/silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe>
+
         <div class="row audio-box" id="audio-box">
             <div class="col-sm-12 col-md-3 col-lg-3">
                 <div class="control-group">
@@ -144,6 +146,7 @@
             </div>
         </div>
         <div>
+<!--            <div class="player-note" id="player-note">The background music will play in <span class="count-time" id="count-time">10</span> seconds.</div>-->
             <div class="audio-box-control" id="btn-box-control" v-on:click="show_or_hide">
                 <i class="fa fa-chevron-down"></i>
             </div>

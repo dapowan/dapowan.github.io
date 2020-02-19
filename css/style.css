@@ -619,6 +619,7 @@ a:hover{
 }
 
 .audio-box-control{
+	/*display: none;*/
 	margin: 1rem auto 0.5rem auto;
 	cursor: pointer;
 	width: 4rem;
@@ -693,4 +694,16 @@ tbody>tr:hover{
 .table-play-icon{
 	opacity: 0;
 	cursor: pointer;
+}
+
+.player-note{
+	text-align: center;
+	font-weight: bolder;
+	font-size: 1.8rem;
+	color: #42BC7F;
+	margin-top: 0.5rem;
+}
+
+.count-time{
+	color: #e74c3c;
 }

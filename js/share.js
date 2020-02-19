@@ -147,6 +147,9 @@ function audio_render(data){
                 this.player.oncanplay = function () {
                     player_container.total_time = player_container.player.duration;
                 };
+                this.player.addEventListener('ended',function () {
+                    player_container.next_or_pre(1);
+                })
                 this.update_song_information(this.songs[0]);
                 $('#btn-progress').mousedown(function(e1) {
                     player_container.progress_btn_state = true;
@@ -173,7 +176,21 @@ function audio_render(data){
                 });
                 setInterval(function () {
                     player_container.update_current_time();
-                }, 1000)
+                }, 1000);
+                // times = data.counter;
+                // counter = setInterval(function () {
+                //     times--;
+                //     if(times < 0){
+                //         $('#btn-box-control').click();
+                //         $('#btn-box-control').show();
+                //         $('#player-note').hide();
+                //         player_container.player.muted = false;
+                //         $('#btn-control').click();
+                //         clearInterval(counter);
+                //     }else{
+                //         $('#count-time').html(times);
+                //     }
+                // }, 1000);
             })
         }
     });
