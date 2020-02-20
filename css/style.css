@@ -587,24 +587,33 @@ a:hover{
 	width: 100%;
 	z-index: 9999;
 }
-
-@media (min-width: 1200px){
-	.container-audio-wrapper{
-		width: 970px;
-	}
-}
-
-@media (min-width: 992px){
+@media (max-width: 767px){
 	.container-audio-wrapper {
-		width: 750px;
+		width: 350px;
 	}
 }
 
 @media (min-width: 768px){
 	.container-audio-wrapper {
-		width: 750px;
+		width: 450px;
 	}
 }
+
+@media (min-width: 992px){
+	.container-audio-wrapper {
+		width: 650px;
+	}
+}
+
+@media (min-width: 1200px){
+	.container-audio-wrapper{
+		width: 800px;
+	}
+}
+
+
+
+
 
 .container-audio-wrapper{
 	margin: 0 auto;
@@ -706,4 +715,15 @@ tbody>tr:hover{
 
 .count-time{
 	color: #e74c3c;
+}
+
+.link-icon{
+	width: 1.5rem;
+	height: 1.5rem;
+	cursor: pointer;
+}
+
+.link-empty{
+	width: 1.5rem;
+	display: inline-block;
 }
