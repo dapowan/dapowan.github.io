@@ -7,20 +7,38 @@
   "songs":
   [
     {
+      "name":"Imperfect",
+      "singer":"周柏豪(Pakho)",
+      "album":"Imperfect Collection",
+      "file":"Imperfect.mp3",
+      "style": "Pop",
+      "year": 2012,
+      "youtube_music": "https://music.youtube.com/watch?v=AFaM7HrPfc8&list=RDAMVMAFaM7HrPfc8",
+      "qq_music": "https://y.qq.com/n/yqq/song/0031Y97h1meCg3.html",
+      "netease_music": "https://music.163.com/#/song?id=25706228"
+    },
+    {
       "name":"淘汰",
       "name_tr": "Eliminated Love",
       "singer":"陈奕迅(Eason Chen)",
       "album":"认了吧",
       "file":"淘汰.mp3",
+      "style": "Pop",
+      "year": 2007,
+      "youtube_music": "https://music.youtube.com/watch?v=O8bTDWz8T8c&list=RDAMVMO8bTDWz8T8c",
       "qq_music": "https://y.qq.com/n/yqq/song/0029dqHX0nuawd.html",
       "netease_music": "https://music.163.com/#/song?id=65528"
     },
+
     {
       "name":"宏愿",
       "name_tr": "Ambition",
       "singer":"周柏豪(Pakho)",
       "album":"Follow",
       "file":"宏愿.mp3",
+      "style": "Pop",
+      "year": 2012,
+      "youtube_music": "https://music.youtube.com/watch?v=uY9wYezFbzY&list=RDAMVMuY9wYezFbzY",
       "qq_music": "https://y.qq.com/n/yqq/song/004aEV821P0wRE.html",
       "netease_music": "https://music.163.com/#/song?id=191534"
     }
