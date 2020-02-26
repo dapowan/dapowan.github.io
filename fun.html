@@ -71,7 +71,7 @@
                     <tbody>
                     <tr v-for="(song, index) in songs" v-bind:id="'song-'+index">
                         <td>{{((index + 1) / 100).toFixed(2).slice(-2)}}</td>
-                        <td><span>{{song.name}}</span><span v-if="song.hasOwnProperty('name_tr')">({{song.name_tr}})</span></td>
+                        <td><span>{{song.name}}</span><span v-if="song.hasOwnProperty('name_tr')"> ({{song.name_tr}})</span></td>
                         <td>
                             <span v-if="song.hasOwnProperty('file')" class="table-play-icon" v-bind:id="'btn-play-'+index">
                                 <i class="fa fa-play " v-bind:id="'icon-'+index"></i>
