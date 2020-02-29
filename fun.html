@@ -83,13 +83,13 @@
                         <td>{{song.style}}</td>
                         <td>
                             <span v-if="song.hasOwnProperty('youtube_music')">
-                                <a v-bind:href="song.youtube_music" target="_blank"><img class="link-icon" src="images/icon_youtube.ico"/></a>
+                                <a v-bind:href="song.youtube_music" target="_blank"><img class="link-icon" src="images/icon_youtube.ico" title="YouTube Music"/></a>
                             </span>
                             <span v-if="song.hasOwnProperty('qq_music')">
-                                <a v-bind:href="song.qq_music" target="_blank"><img class="link-icon" src="images/icon_qq_music.ico"/></a>
+                                <a v-bind:href="song.qq_music" target="_blank"><img class="link-icon" src="images/icon_qq_music.ico" title="QQ Music"/></a>
                             </span>
                             <span v-if="song.hasOwnProperty('netease_music')">
-                                <a v-bind:href="song.netease_music" target="_blank"><img class="link-icon" src="images/icon_netease_music.ico"/></a>
+                                <a v-bind:href="song.netease_music" target="_blank"><img class="link-icon" src="images/icon_netease_music.ico" title="Netease Cloud Music"/></a>
                             </span>
 <!--                            <span v-else class="link-empty"></span>-->
                         </td>
