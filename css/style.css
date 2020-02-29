@@ -620,8 +620,8 @@ a:hover{
 }
 
 .audio-box{
-	/*background-color: #b1ff99;*/
-	background-color: whitesmoke;
+	background-color: rgba(177, 255, 153, 0.7);
+	/*background-color: whitesmoke;*/
 	box-shadow: 0 1rem 3rem rgba(0,0,0,0.175) !important;
 	border: 1px solid rgba(0,0,0,0.025);
 	padding: 1rem 1rem;
