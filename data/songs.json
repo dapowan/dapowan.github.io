@@ -7,6 +7,16 @@
   "songs":
   [
     {
+      "name":"Too Bad",
+      "singer":"林俊杰 (JJ Lin)",
+      "album":"和自己对话 From M.E. To Myself",
+      "style": "Pop",
+      "year": 2015,
+      "youtube_music": "https://music.youtube.com/watch?v=isLhCYJgnJ8&list=RDAMVMisLhCYJgnJ8",
+      "qq_music": "https://y.qq.com/n/yqq/song/004czErX2hy62A.html",
+      "netease_music": "https://music.163.com/#/song?id=40147559"
+    },
+    {
       "name":"爱笑的眼睛",
       "name_tr": "Smiling Eyes",
       "singer":"林俊杰 (JJ Lin)",

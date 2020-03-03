@@ -149,8 +149,16 @@ function audio_render(data){
                 };
                 this.player.addEventListener('ended',function () {
                     player_container.next_or_pre(1);
-                })
-                this.update_song_information(this.songs[0]);
+                });
+                i = 0;
+                while(1){
+                    if((this.songs[i]).hasOwnProperty('file'))
+                    {
+                        this.update_song_information(this.songs[i]);
+                        break;
+                    }
+                    i++;
+                }
                 $('#btn-progress').mousedown(function(e1) {
                     player_container.progress_btn_state = true;
                     offset_left = $('#container-progress').offset().left;
