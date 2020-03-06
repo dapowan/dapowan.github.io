@@ -81,12 +81,23 @@ function audio_render(data){
                 songs_num = this.songs.length;
                 if(this.play_mode === 0)
                 {
-                    this.current_song = (this.current_song + move) % songs_num;
-                    if(this.current_song < 0){
-                        this.current_song = songs_num - 1;
+                    while(true){
+                        this.current_song = (this.current_song + move) % songs_num;
+                        if(this.current_song < 0){
+                            this.current_song = songs_num - 1;
+                        }
+                        if((this.songs[this.current_song]).hasOwnProperty('file')){
+                            break;
+                        }
                     }
+
                 }else if(this.play_mode === 1){
-                    this.current_song = Math.floor(Math.random() * songs_num);
+                    while(true) {
+                        this.current_song = Math.floor(Math.random() * songs_num);
+                        if((this.songs[this.current_song]).hasOwnProperty('file')){
+                            break;
+                        }
+                    }
                 }
                 $('#btn-control svg').attr('data-icon','pause-circle');
                 this.play_state = 1;
