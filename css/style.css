@@ -46,6 +46,7 @@ a.theme-link {
 
 a.resume-link {
 	color: #363636;
+	display: inline-block;
 }
 
 .resume-link:hover{
