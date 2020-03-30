@@ -7,6 +7,18 @@
   "songs":
   [
     {
+      "name":"新的心跳",
+      "name_tr": "Heartbeat",
+      "singer":"邓紫棋 (Gem Tang)",
+      "album":"新的心跳",
+      "file":"新的心跳.mp3",
+      "style": "Pop",
+      "year": 2015,
+      "youtube_music": "https://music.youtube.com/watch?v=vDR-e3W6ARc&list=RDAMVMvDR-e3W6ARc",
+      "qq_music": "https://y.qq.com/n/yqq/song/004LHkGL1GVdZo.html",
+      "netease_music": "https://music.163.com/#/song?id=33190007"
+    },
+    {
       "name":"Too Bad",
       "singer":"林俊杰 (JJ Lin)",
       "album":"和自己对话 From M.E. To Myself",
@@ -75,7 +87,7 @@
     {
       "name":"淘汰",
       "name_tr": "Eliminated Love",
-      "singer":"陈奕迅 (Eason Chen)",
+      "singer":"陈奕迅 (Eason Chan)",
       "album":"认了吧",
       "file":"淘汰.mp3",
       "style": "Pop",

@@ -89,6 +89,14 @@
   ],
   "news":[
     {
+      "date": "Apr. 2020",
+      "content": "Start internship at Local Life Research Institute of Alibaba (Eleme)."
+    },
+    {
+      "date": "Mar. 2020",
+      "content": "Graduate from <span class=\"item-bold\">SJTU</span>."
+    },
+    {
       "date": "Jan. 2020",
       "content": "Successfully defend my master's thesis."
     },
@@ -152,6 +160,6 @@
   ],
   "language": ["Chinese", "English"],
   "hobby": ["Travelling", "Swimming", "Singing", "Cooking"],
-  "information": "Latest updated by Feb. 2020",
+  "information": "Latest updated by Apr. 2020",
   "message": ""
 }
