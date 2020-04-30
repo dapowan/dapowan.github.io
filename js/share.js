@@ -234,7 +234,7 @@ function audio_render(data){
                 $('#table-song tr').bind('mouseover', function (el) {
                     id = (this.id).split('-')[1];
                     $('#btn-play-' + id).css('opacity', 1.0);
-                    $('#song-' + id).css('background-color','rgba(177, 255, 153, 0.5)');
+                    $('#song-' + id).css('background-color','#42bc7f26');
                 });
                 $('#table-song tr').bind('mouseleave', function (el) {
                     id = (this.id).split('-')[1];
@@ -247,7 +247,7 @@ function audio_render(data){
                     $('#song-' + song_container.current_song).css('background-color','');
                     id = (this.id).split('-')[2];
                     song_container.current_song = parseInt(id);
-                    $('#song-' + id).css('background-color','rgba(177, 255, 153, 0.5)');
+                    $('#song-' + id).css('background-color','#42bc7f26');
                     player_container.play_song(parseInt(id));
                 })
             })
