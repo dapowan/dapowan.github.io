@@ -90,7 +90,7 @@
   "news":[
     {
       "date": "Jan. 2021",
-      "content": "Start to pursue for my Ph.D. degree in NTU."
+      "content": "Start to pursue for my Ph.D. degree in <span class=\"item-bold\">NTU</span>."
     },
     {
       "date": "Dec. 2020",
