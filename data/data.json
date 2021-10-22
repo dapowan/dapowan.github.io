@@ -160,10 +160,10 @@
   ],
   "research": [
     {
-      "topic": "RFID Sensing",
+      "topic": "Wireless Sensing",
       "project": [
         {
-          "name": "Localization",
+          "name": "RFID-based Localization",
           "intro": "Analyze the features of RFID signals and design robust indoor localization to locate RFID tags accurately. We propose deep learning enhance holography (DLEH) to design adaptive localization model by combing RFID based synthetic aperture radar (SAR) and convolutional neural network (CNN). We also introduce compress sensing algorithms into RFID localization.",
           "publication": [
             {
