@@ -1,7 +1,7 @@
 {
   "head": {
     "title": "Huatao Xu",
-    "icon": "images/SJTU.png"
+    "icon": "images/NTU.png"
   },
   "header":
   {
@@ -41,6 +41,18 @@
     }
   ],
   "publication": [
+    {
+      "title": "LIMU-BERT: Unleashing the Potential of Unlabeled Data for IMU Sensing Applications",
+      "url": "",
+      "author": ["Huatao Xu", "Pengfei Zhou", "Rui Tan", "Mo Li", "Guobin Shen"],
+      "author_order": 1,
+      "conf_or_jour": "ACM SenSys 2021",
+      "resource":{
+        "paper_url": "files/LIMU-BERT.pdf",
+        "video_url": "https://drive.google.com/file/d/1IvI9z6yGs1n8EzOtwkDwG68t1bRH7NNp/view",
+        "code_url": "https://github.com/dapowan/LIMU-BERT-Public"
+      }
+    },
     {
       "title": "FaHo: Deep Learning Enhanced Holographic Localization for RFID tags",
       "url": "https://dl.acm.org/citation.cfm?id=3360035",
@@ -93,6 +105,10 @@
     "2016 Nanjing University Inspirational Scholarship"
   ],
   "news":[
+    {
+      "date": "Oct. 2021",
+      "content": "Our paper \"LIMU-BERT\" has been accepted by <span class=\"item-bold\">SenSys 2021</span>."
+    },
     {
       "date": "Jan. 2021",
       "content": "Start to pursue for my Ph.D. degree in <span class=\"item-bold\">NTU</span>."
@@ -169,10 +185,25 @@
           ]
         }
       ]
+    },
+    {
+      "topic": "Wearable Sensing",
+      "project": [
+        {
+          "name": "Human Activity Recognition",
+          "intro": "Recognize the human activity with IMU sensor data collected at mobile devices. We propose a BERT-like self-supervised representation learning for IMU data, which extracts generalized features and substantially reduces the supervised training overhead with labeled data.",
+          "publication": [
+            {
+              "title": "LIMU-BERT",
+              "url": ""
+            }
+          ]
+        }
+      ]
     }
   ],
   "language": ["Chinese", "English"],
   "hobby": ["Travelling", "Swimming", "Singing", "Cooking"],
-  "information": "Latest updated by July 2021",
+  "information": "Latest updated by October 2021",
   "message": ""
 }
