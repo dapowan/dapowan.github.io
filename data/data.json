@@ -49,14 +49,14 @@
       "conf_or_jour": "ACM SenSys 2021 (Best Paper Runner-up)",
       "resource":{
         "paper_url": "files/LIMU-BERT.pdf",
-        "slide_url": "files/LIMU-BERT.pptx"
+        "slide_url": "files/LIMU-BERT.pptx",
         "video_url": "https://drive.google.com/file/d/1IvI9z6yGs1n8EzOtwkDwG68t1bRH7NNp/view",
         "code_url": "https://github.com/dapowan/LIMU-BERT-Public"
       }
     },
     {
       "title": "FaHo: Deep Learning Enhanced Holographic Localization for RFID tags",
-      "url": "https://dl.acm.org/citation.cfm?id=3360035",
+      "url": "https://dl.acm.org/doi/10.1145/3356250.3360035",
       "author": ["Huatao Xu", "Dong Wang", "Run Zhao", "Qian Zhang"],
       "author_order": 1,
       "conf_or_jour": "ACM SenSys 2019",
@@ -67,7 +67,7 @@
     },
     {
       "title": "AdaRF: Adaptive RFID-based Indoor Localization Using Deep Learning Enhanced Holography",
-      "url": "https://dl.acm.org/citation.cfm?doid=3361560.3351271",
+      "url": "https://dl.acm.org/doi/10.1145/3351271",
       "author": ["Huatao Xu", "Dong Wang", "Run Zhao", "Qian Zhang"],
       "author_order": 1,
       "conf_or_jour": "ACM IMWUT (UbiComp) 2019",
@@ -89,7 +89,7 @@
     },
     {
       "title": "PRMS: Phase and RSSI based Localization System for Tagged Objects on Multilayer with a Single Antenna",
-      "url": "https://dl.acm.org/citation.cfm?id=3242138",
+      "url": "https://dl.acm.org/doi/10.1145/3242102.3242138",
       "author": ["Huatao Xu", "Run Zhao", "Qian Zhang", "Dong Wang"],
       "author_order": 1,
       "conf_or_jour": "ACM MSWiM 2018",
@@ -109,7 +109,7 @@
   "news":[
     {
       "date": "Nov. 2021",
-      "content": "Our paper \"LIMU-BERT\" wins <span class=\"item-bold\">SenSys 2021</span> best paper runner-up award."
+      "content": "Our paper \"LIMU-BERT\" wins <span class=\"item-bold\">SenSys 2021 best paper runner-up award</span>."
     },
     {
       "date": "Oct. 2021",
@@ -174,11 +174,11 @@
           "publication": [
             {
               "title": "FaHo",
-              "url": "https://dl.acm.org/citation.cfm?id=3360035"
+              "url": "https://dl.acm.org/doi/10.1145/3356250.3360035"
             },
             {
               "title": "AdaRF",
-              "url": "https://dl.acm.org/citation.cfm?doid=3361560.3351271"
+              "url": "https://dl.acm.org/doi/10.1145/3351271"
             },
             {
               "title": "PEC",
@@ -186,7 +186,7 @@
             },
             {
               "title": "PRMS",
-              "url": "https://dl.acm.org/citation.cfm?id=3242138"
+              "url": "https://dl.acm.org/doi/10.1145/3242102.3242138"
             }
           ]
         }
