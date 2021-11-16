@@ -50,7 +50,7 @@
       "resource":{
         "paper_url": "files/LIMU-BERT.pdf",
         "slide_url": "files/LIMU-BERT.pptx",
-        "video_url": "https://drive.google.com/file/d/1IvI9z6yGs1n8EzOtwkDwG68t1bRH7NNp/view",
+        "video_url": "https://www.youtube.com/watch?v=B9_EQVAVAA0",
         "code_url": "https://github.com/dapowan/LIMU-BERT-Public"
       }
     },
@@ -73,7 +73,8 @@
       "conf_or_jour": "ACM IMWUT (UbiComp) 2019",
       "resource":{
         "paper_url": "files/AdaRF.pdf",
-        "slide_url": "files/AdaRF.pptx"
+        "slide_url": "files/AdaRF.pptx",
+        "code_url": "https://github.com/dapowan/AdaRF"
       }
     },
     {
