@@ -43,12 +43,13 @@
   "publication": [
     {
       "title": "LIMU-BERT: Unleashing the Potential of Unlabeled Data for IMU Sensing Applications",
-      "url": "",
+      "url": "https://dl.acm.org/doi/10.1145/3485730.3485937",
       "author": ["Huatao Xu", "Pengfei Zhou", "Rui Tan", "Mo Li", "Guobin Shen"],
       "author_order": 1,
-      "conf_or_jour": "ACM SenSys 2021",
+      "conf_or_jour": "ACM SenSys 2021 (Best Paper Runner-up)",
       "resource":{
         "paper_url": "files/LIMU-BERT.pdf",
+        "slide_url": "files/LIMU-BERT.pptx"
         "video_url": "https://drive.google.com/file/d/1IvI9z6yGs1n8EzOtwkDwG68t1bRH7NNp/view",
         "code_url": "https://github.com/dapowan/LIMU-BERT-Public"
       }
@@ -99,12 +100,17 @@
     }
   ],
   "honor_award": [
+    "2021 SenSys Best Paper Runner-up",
     "2019 Shanghai Outstanding Graduate Student",
     "2019 China National Scholarship",
     "2017-2019 Shanghai Jiao Tong University First-class Scholarship",
     "2016 Nanjing University Inspirational Scholarship"
   ],
   "news":[
+    {
+      "date": "Nov. 2021",
+      "content": "Our paper \"LIMU-BERT\" wins <span class=\"item-bold\">SenSys 2021</span> best paper runner-up award."
+    },
     {
       "date": "Oct. 2021",
       "content": "Our paper \"LIMU-BERT\" has been accepted by <span class=\"item-bold\">SenSys 2021</span>."
@@ -195,7 +201,7 @@
           "publication": [
             {
               "title": "LIMU-BERT",
-              "url": ""
+              "url": "https://dl.acm.org/doi/10.1145/3485730.3485937"
             }
           ]
         }
@@ -204,6 +210,6 @@
   ],
   "language": ["Chinese", "English"],
   "hobby": ["Travelling", "Swimming", "Singing", "Cooking"],
-  "information": "Latest updated by October 2021",
+  "information": "Latest updated by November 2021",
   "message": ""
 }
