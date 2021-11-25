@@ -198,7 +198,7 @@
       "project": [
         {
           "name": "Human Activity Recognition",
-          "intro": "Recognize the human activity with IMU sensor data collected at mobile devices. We propose a BERT-like self-supervised representation learning for IMU data, which extracts generalized features and substantially reduces the supervised training overhead with labeled data.",
+          "intro": "Recognize the human activity with IMU sensor data collected at mobile devices. We propose a BERT-like self-supervised representation learning for IMU data, which extracts generalized features and substantially reduces the supervised training overhead for down-stream task-specific sensing models.",
           "publication": [
             {
               "title": "LIMU-BERT",
