@@ -21,7 +21,7 @@
   "scholar": "https://scholar.google.com/citations?user=QafNtQIAAAAJ",
   "city": "Singapore",
   "avatar": "images/default.JPG",
-  "introduction": "I am a first-year Ph.D. student from <a href=\"http://scse.ntu.edu.sg/Pages/Home.aspx\">SCSE</a> of <a href=\"https://www.ntu.edu.sg/Pages/home.aspx\">Nanyang Technological University (NTU)</a>, supervised by Prof. <a href=\"https://personal.ntu.edu.sg/limo/\">Mo Li</a> and co-supervised by Assoc. Prof. <a href=\"https://personal.ntu.edu.sg/tanrui/\">Rui Tan</a>.\n                                I received my B.S. degree in School of Software from <a href=\"https://www.nju.edu.cn/EN/\">Nanjing University (NJU)</a>, and Master's degree in <a href=\"http://english.seiee.sjtu.edu.cn/\">SEIEE</a> from <a href=\"http://en.sjtu.edu.cn/\">Shanghai Jiao Tong University (SJTU)</a> under the supervision of Prof. <a href=\"https://scholar.google.com/citations?user=OBVW2YgAAAAJ&hl=zh-CN&oi=sra\">Dong Wang</a>.\n                                <br>\n                                <br>\n                                I am broadly interested in ubiquitous computing, especially in related fields of building wearable-based or wireless-based sensing interfaces to bridge gaps between computing resources and human's daily lives. My current research focuses on wearable-based sensing, including human activity recognition, localization, authentication, etc.\n                                <br>",
+  "introduction": "I am a second-year Ph.D. student from <a href=\"http://scse.ntu.edu.sg/Pages/Home.aspx\">SCSE</a> of <a href=\"https://www.ntu.edu.sg/Pages/home.aspx\">Nanyang Technological University (NTU)</a>, supervised by Prof. <a href=\"https://personal.ntu.edu.sg/limo/\">Mo Li</a> and co-supervised by Assoc. Prof. <a href=\"https://personal.ntu.edu.sg/tanrui/\">Rui Tan</a>.\n                                I received my B.S. degree in School of Software from <a href=\"https://www.nju.edu.cn/EN/\">Nanjing University (NJU)</a>, and Master's degree in <a href=\"http://english.seiee.sjtu.edu.cn/\">SEIEE</a> from <a href=\"http://en.sjtu.edu.cn/\">Shanghai Jiao Tong University (SJTU)</a> under the supervision of Prof. <a href=\"https://scholar.google.com/citations?user=OBVW2YgAAAAJ&hl=zh-CN&oi=sra\">Dong Wang</a>.\n                                <br>\n                                <br>\n                                I am broadly interested in ubiquitous computing, especially in related fields of building wearable-based or wireless-based sensing interfaces to bridge gaps between computing resources and human's daily lives. My current research focuses on wearable-based sensing, including human activity recognition, localization, authentication, etc.\n                                <br>",
   "cv_url": "files/resume-xht.pdf",
   "education": [
      {
@@ -211,6 +211,6 @@
   ],
   "language": ["Chinese", "English"],
   "hobby": ["Travelling", "Swimming", "Singing", "Cooking"],
-  "information": "Latest updated by November 2021",
+  "information": "Latest updated by January 2022",
   "message": ""
 }
