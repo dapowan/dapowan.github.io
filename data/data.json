@@ -42,6 +42,18 @@
   ],
   "publication": [
     {
+      "title": "Facilitating Radar-Based Gesture Recognition With Self-Supervised Learning",
+      "url": "",
+      "author": ["Zhiyao Sheng","Huatao Xu", "Qian Zhang", "Dong Wang"],
+      "author_order": 2,
+      "conf_or_jour": "IEEE SECON 2022",
+      "resource":{
+        "paper_url": "files/RadarAE.pdf",
+        "code_url": "https://github.com/Ela-Boska/RadarAE"
+      },
+      "selected": true
+    },
+    {
       "title": "LIMU-BERT: Unleashing the Potential of Unlabeled Data for IMU Sensing Applications",
       "url": "https://dl.acm.org/doi/10.1145/3485730.3485937",
       "author": ["Huatao Xu", "Pengfei Zhou", "Rui Tan", "Mo Li", "Guobin Shen"],
@@ -52,7 +64,8 @@
         "slide_url": "files/LIMU-BERT.pptx",
         "video_url": "https://www.youtube.com/watch?v=B9_EQVAVAA0",
         "code_url": "https://github.com/dapowan/LIMU-BERT-Public"
-      }
+      },
+      "selected": true
     },
     {
       "title": "FaHo: Deep Learning Enhanced Holographic Localization for RFID tags",
@@ -63,7 +76,8 @@
       "resource":{
         "paper_url": "files/FaHo.pdf",
         "slide_url": "files/FaHo.pptx"
-      }
+      },
+      "selected": true
     },
     {
       "title": "AdaRF: Adaptive RFID-based Indoor Localization Using Deep Learning Enhanced Holography",
@@ -75,7 +89,8 @@
         "paper_url": "files/AdaRF.pdf",
         "slide_url": "files/AdaRF.pptx",
         "code_url": "https://github.com/dapowan/AdaRF"
-      }
+      },
+      "selected": true
     },
     {
       "title": "PEC: Synthetic Aperture RFID Localization with Aperture Position Error Compensation",
@@ -86,7 +101,8 @@
       "resource":{
         "paper_url": "files/PEC.pdf",
         "slide_url": "files/PEC.pptx"
-      }
+      },
+      "selected": true
     },
     {
       "title": "PRMS: Phase and RSSI based Localization System for Tagged Objects on Multilayer with a Single Antenna",
@@ -97,7 +113,8 @@
       "resource":{
         "paper_url": "files/PRMS.pdf",
         "slide_url": "files/PRMS.pptx"
-      }
+      },
+      "selected": false
     }
   ],
   "honor_award": [
@@ -109,12 +126,20 @@
   ],
   "news":[
     {
+      "date": "Aug. 2022",
+      "content": "Our paper \"LIMU-BERT\" is invited to publish in <span class=\"item-bold\">GetMobile</span> as a research highlight."
+    },
+    {
+      "date": "Aug. 2022",
+      "content": "Our paper \"RadarAE\" is accepted by <span class=\"item-bold\">SECON 2022</span>."
+    },
+    {
       "date": "Nov. 2021",
       "content": "Our paper \"LIMU-BERT\" wins <span class=\"item-bold\">SenSys 2021 best paper runner-up award</span>."
     },
     {
       "date": "Oct. 2021",
-      "content": "Our paper \"LIMU-BERT\" has been accepted by <span class=\"item-bold\">SenSys 2021</span>."
+      "content": "Our paper \"LIMU-BERT\" is accepted by <span class=\"item-bold\">SenSys 2021</span>."
     },
     {
       "date": "Jan. 2021",
@@ -146,15 +171,15 @@
     },
     {
       "date": "Aug. 2019",
-      "content": "Our paper \"FaHo\" has been accepted by <span class=\"item-bold\">SenSys 2019</span>."
+      "content": "Our paper \"FaHo\" is accepted by <span class=\"item-bold\">SenSys 2019</span>."
     },
     {
       "date": "Jul. 2019",
-      "content": "Our paper \"AdaRF\" has been accepted by <span class=\"item-bold\">Ubicomp 2019</span> after a cycle of major revisions."
+      "content": "Our paper \"AdaRF\" is accepted by <span class=\"item-bold\">Ubicomp 2019</span> after a cycle of major revisions."
     },
     {
       "date": "Apr. 2019",
-      "content": "Our paper \"PEC\" has been accepted by <span class=\"item-bold\">SECON 2019</span>."
+      "content": "Our paper \"PEC\" is accepted by <span class=\"item-bold\">SECON 2019</span>."
     },
     {
       "date": "Nov. 2018",
@@ -162,9 +187,10 @@
     },
     {
       "date": "Apr. 2019",
-      "content": "Our paper \"PRMS\" has been accepted by <span class=\"item-bold\">MSWiM 2018</span>."
+      "content": "Our paper \"PRMS\" is accepted by <span class=\"item-bold\">MSWiM 2018</span>."
     }
   ],
+  "news_show_count": 13,
   "research": [
     {
       "topic": "Wireless Sensing",
@@ -211,6 +237,6 @@
   ],
   "language": ["Chinese", "English"],
   "hobby": ["Travelling", "Swimming", "Singing", "Cooking"],
-  "information": "Latest updated by January 2022",
+  "information": "Latest updated by August 2022",
   "message": ""
 }

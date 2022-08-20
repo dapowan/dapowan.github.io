@@ -97,9 +97,10 @@
                         </section><!--//project-section-->
 
                         <section class="publication-section py-3">
-                            <h3 class="text-uppercase resume-section-heading mb-4">Publications</h3>
+                            <h3 class="text-uppercase resume-section-heading mb-4">Selected Publications</h3>
                             <div class="item mb-3" v-for="item in publication">
-                                <a v-bind:href="item.url" target="_blank"><h4 class="item-title mb-2 ">{{item.title}}</h4></a>
+                                <div v-if="item.selected">
+                                    <a v-bind:href="item.url" target="_blank"><h4 class="item-title mb-2 ">{{item.title}}</h4></a>
                                 <div class="item-author">
                                     <span v-for="(item_author, index_author) in item.author">
                                         <span v-if="index_author != 0">, </span>
@@ -113,6 +114,7 @@
                                     <a v-if="item.resource.hasOwnProperty('slide_url')" v-bind:href="item.resource.slide_url"><i class="fa fa-file-image"></i></a>
                                     <a v-if="item.resource.hasOwnProperty('video_url')" v-bind:href="item.resource.video_url"><i class="fa fa-file-video"></i></a>
                                     <a v-if="item.resource.hasOwnProperty('code_url')" v-bind:href="item.resource.code_url"><i class="fa fa-file-code"></i></a>
+                                </div>
                                 </div>
                             </div>
                             <a href="publication.html">Full list</a>
@@ -132,10 +134,12 @@
                         <section class="education-section py-3">
                             <h3 class="text-uppercase resume-section-heading mb-4">News</h3>
                             <ul class="news-list">
-                                <li v-for="item in news" class="mb-2">
-                                    <div class="item-news-date">{{item.date}}</div>
-                                    <div class="item-news-content" v-html="item.content"></div>
-                                </li>
+                                <div v-for="(item, index) in news" class="mb-2">
+                                    <li v-if="index < news_show_count">
+                                        <div class="item-news-date">{{item.date}}</div>
+                                        <div class="item-news-content" v-html="item.content"></div>
+                                    </li>
+                                </div>
                             </ul>
                             <a href="news.html">More news</a>
                         </section><!--//education-section-->
