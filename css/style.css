@@ -399,6 +399,8 @@ a:hover{
 	margin-left: auto;
 	margin-right: auto;
 	vertical-align: middle;
+	margin-top: 20px;
+    	margin-bottom: 30px;
 	border-style: none;
 	/*border-radius: 50% !important;*/
 	display: table-cell;
