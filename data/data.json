@@ -49,6 +49,7 @@
       "conf_or_jour": "IEEE SECON 2022",
       "resource":{
         "paper_url": "files/RadarAE.pdf",
+        "slide_url": "files/RadarAE.pptx",
         "code_url": "https://github.com/Ela-Boska/RadarAE"
       },
       "selected": true
@@ -127,7 +128,7 @@
   "news":[
     {
       "date": "Aug. 2022",
-      "content": "Our paper \"LIMU-BERT\" is invited to publish in <span class=\"item-bold\">GetMobile</span> as a research highlight."
+      "content": "Our paper \"LIMU-BERT\" is invited to publish in <span class=\"item-bold\">GetMobile</span> as a <a href=\"files/LIMU-BERT_GetMobile.pdf\">research highlight</a>."
     },
     {
       "date": "Aug. 2022",
@@ -237,6 +238,6 @@
   ],
   "language": ["Chinese", "English"],
   "hobby": ["Travelling", "Swimming", "Singing", "Cooking"],
-  "information": "Latest updated by August 2022",
+  "information": "Latest updated by September 2022",
   "message": ""
 }
