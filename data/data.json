@@ -119,6 +119,7 @@
     }
   ],
   "honor_award": [
+    "2022 GetMobile Research Highlight",
     "2021 SenSys Best Paper Runner-up",
     "2019 Shanghai Outstanding Graduate Student",
     "2019 China National Scholarship",
@@ -126,6 +127,10 @@
     "2016 Nanjing University Inspirational Scholarship"
   ],
   "news":[
+    {
+      "date": "Oct. 2022",
+      "content": "Attend <span class=\"item-bold\">MobiCom 2022</span> in Sydney, Australia."
+    },
     {
       "date": "Aug. 2022",
       "content": "Our paper \"LIMU-BERT\" is invited to publish in <span class=\"item-bold\">GetMobile</span> as a <a href=\"files/LIMU-BERT_GetMobile.pdf\">research highlight</a>."
@@ -238,6 +243,6 @@
   ],
   "language": ["Chinese", "English"],
   "hobby": ["Travelling", "Swimming", "Singing", "Cooking"],
-  "information": "Latest updated by September 2022",
+  "information": "Latest updated by October 2022",
   "message": ""
 }
