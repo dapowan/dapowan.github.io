@@ -43,7 +43,7 @@
   "publication": [
     {
       "title": "Facilitating Radar-Based Gesture Recognition With Self-Supervised Learning",
-      "url": "",
+      "url": "https://ieeexplore.ieee.org/abstract/document/9918549",
       "author": ["Zhiyao Sheng","Huatao Xu", "Qian Zhang", "Dong Wang"],
       "author_order": 2,
       "conf_or_jour": "IEEE SECON 2022",
