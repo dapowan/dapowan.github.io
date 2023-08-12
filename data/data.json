@@ -14,7 +14,7 @@
   "name_en": "Huatao Xu",
   "name_zn": "徐华韬",
   "name_tag": "Ph.D. Student",
-  "tel": "+65 91351995",
+  "tel": "+65|91351995",
   "email": "HUATAO001@e.ntu.edu.sg",
   "website": "dapowan@github.io",
   "github": "https://github.com/dapowan",
@@ -128,8 +128,8 @@
   ],
   "news":[
     {
-      "date": "Oct. 2022",
-      "content": "Attend <span class=\"item-bold\">MobiCom 2022</span> in Sydney, Australia."
+      "date": "Aug. 2023",
+      "content": "Our paper \"UniHAR\" is accepted by <span class=\"item-bold\">MobiCom 2023</span>."
     },
     {
       "date": "Aug. 2022",
@@ -243,6 +243,6 @@
   ],
   "language": ["Chinese", "English"],
   "hobby": ["Travelling", "Swimming", "Singing", "Cooking"],
-  "information": "Latest updated by October 2022",
+  "information": "Latest updated by August 2023",
   "message": ""
 }
