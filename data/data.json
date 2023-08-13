@@ -13,7 +13,7 @@
   },
   "name_en": "Huatao Xu",
   "name_zn": "徐华韬",
-  "name_tag": "Ph.D. Student",
+  "name_tag": "Ph.D. Candidate",
   "tel": "+65|91351995",
   "email": "HUATAO001@e.ntu.edu.sg",
   "website": "dapowan@github.io",
@@ -21,7 +21,7 @@
   "scholar": "https://scholar.google.com/citations?user=QafNtQIAAAAJ",
   "city": "Singapore",
   "avatar": "images/default.JPG",
-  "introduction": "I am a second-year Ph.D. student from <a href=\"http://scse.ntu.edu.sg/Pages/Home.aspx\">SCSE</a> of <a href=\"https://www.ntu.edu.sg/Pages/home.aspx\">Nanyang Technological University (NTU)</a>, supervised by Prof. <a href=\"https://personal.ntu.edu.sg/limo/\">Mo Li</a> and co-supervised by Assoc. Prof. <a href=\"https://personal.ntu.edu.sg/tanrui/\">Rui Tan</a>.\n                                I received my B.S. degree in School of Software from <a href=\"https://www.nju.edu.cn/EN/\">Nanjing University (NJU)</a>, and Master's degree in <a href=\"http://english.seiee.sjtu.edu.cn/\">SEIEE</a> from <a href=\"http://en.sjtu.edu.cn/\">Shanghai Jiao Tong University (SJTU)</a> under the supervision of Prof. <a href=\"https://scholar.google.com/citations?user=OBVW2YgAAAAJ&hl=zh-CN&oi=sra\">Dong Wang</a>.\n                                <br>\n                                <br>\n                                I am broadly interested in ubiquitous computing, especially in related fields of building wearable-based or wireless-based sensing interfaces to bridge gaps between computing resources and human's daily lives. My current research focuses on wearable-based sensing, including human activity recognition, localization, authentication, etc.\n                                <br>",
+  "introduction": "I am a third-year Ph.D. student from <a href=\"http://scse.ntu.edu.sg/Pages/Home.aspx\">SCSE</a> of <a href=\"https://www.ntu.edu.sg/Pages/home.aspx\">Nanyang Technological University (NTU)</a>, supervised by Prof. <a href=\"https://personal.ntu.edu.sg/limo/\">Mo Li</a> and co-supervised by Assoc. Prof. <a href=\"https://personal.ntu.edu.sg/tanrui/\">Rui Tan</a>.\n                                I received my B.S. degree in School of Software from <a href=\"https://www.nju.edu.cn/EN/\">Nanjing University (NJU)</a>, and Master's degree in <a href=\"http://english.seiee.sjtu.edu.cn/\">SEIEE</a> from <a href=\"http://en.sjtu.edu.cn/\">Shanghai Jiao Tong University (SJTU)</a> under the supervision of Prof. <a href=\"https://scholar.google.com/citations?user=OBVW2YgAAAAJ&hl=zh-CN&oi=sra\">Dong Wang</a>.\n                                <br>\n                                <br>\n                                I am broadly interested in ubiquitous computing, especially in related fields of building wearable-based or wireless-based sensing interfaces to bridge gaps between computing resources and human's daily lives. My current research focuses on wearable-based sensing, including human activity recognition, localization, authentication, etc.\n                                <br>",
   "cv_url": "files/resume-xht.pdf",
   "education": [
      {
@@ -41,6 +41,18 @@
     }
   ],
   "publication": [
+    {
+      "title": "Practically Adopting Human Activity Recognition",
+      "url": "",
+      "author": ["Huatao Xu", "Pengfei Zhou", "Rui Tan", "Mo Li"],
+      "author_order": 1,
+      "conf_or_jour": "ACM MobiCom 2023",
+      "resource":{
+        "paper_url": "files/UniHAR.pdf",
+        "website_url": "https://dapowan.github.io/wands_unihar/"
+      },
+      "selected": true
+    },
     {
       "title": "Facilitating Radar-Based Gesture Recognition With Self-Supervised Learning",
       "url": "https://ieeexplore.ieee.org/abstract/document/9918549",
@@ -235,6 +247,10 @@
             {
               "title": "LIMU-BERT",
               "url": "https://dl.acm.org/doi/10.1145/3485730.3485937"
+            },
+            {
+              "title": "UniHAR",
+              "url": "https://dapowan.github.io/wands_unihar/"
             }
           ]
         }
