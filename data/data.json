@@ -141,6 +141,10 @@
   ],
   "news":[
     {
+      "date": "Oct. 2023",
+      "content": "Attend <span class=\"item-bold\">MobiCom 2023</span> in Madrid, Spain."
+    },
+    {
       "date": "Aug. 2023",
       "content": "Our paper \"UniHAR\" is accepted by <span class=\"item-bold\">MobiCom 2023</span>."
     },
