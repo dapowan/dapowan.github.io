@@ -49,6 +49,7 @@
       "conf_or_jour": "ACM MobiCom 2023",
       "resource":{
         "paper_url": "files/UniHAR.pdf",
+        "slide_url": "files/UniHAR.pptx",
         "website_url": "https://dapowan.github.io/wands_unihar/"
       },
       "selected": true
