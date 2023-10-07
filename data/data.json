@@ -43,7 +43,7 @@
   "publication": [
     {
       "title": "Practically Adopting Human Activity Recognition",
-      "url": "",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3570361.3613299",
       "author": ["Huatao Xu", "Pengfei Zhou", "Rui Tan", "Mo Li"],
       "author_order": 1,
       "conf_or_jour": "ACM MobiCom 2023",
@@ -255,7 +255,7 @@
             },
             {
               "title": "UniHAR",
-              "url": "https://dapowan.github.io/wands_unihar/"
+              "url": "https://dl.acm.org/doi/abs/10.1145/3570361.3613299"
             }
           ]
         }
@@ -265,6 +265,6 @@
   "language": ["Chinese", "English"],
   "hobby": ["Travelling", "Swimming", "Singing", "Cooking"],
   "services": ["Reviewer for TMC'23"],
-  "information": "Latest updated by August 2023",
+  "information": "Latest updated by October 2023",
   "message": ""
 }
