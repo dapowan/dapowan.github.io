@@ -50,6 +50,7 @@
       "resource":{
         "paper_url": "files/UniHAR.pdf",
         "slide_url": "files/UniHAR.pptx",
+        "code_url": "https://doi.org/10.5281/zenodo.8260608",
         "website_url": "https://dapowan.github.io/wands_unihar/"
       },
       "selected": true
