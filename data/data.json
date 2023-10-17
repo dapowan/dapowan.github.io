@@ -129,7 +129,7 @@
         "paper_url": "files/PEC.pdf",
         "slide_url": "files/PEC.pptx"
       },
-      "selected": true
+      "selected": false
     },
     {
       "title": "PRMS: Phase and RSSI based Localization System for Tagged Objects on Multilayer with a Single Antenna",
@@ -226,7 +226,7 @@
       "content": "Our paper \"PRMS\" is accepted by <span class=\"item-bold\">MSWiM 2018</span>."
     }
   ],
-  "news_show_count": 17,
+  "news_show_count": 15,
   "research": [
     {
       "topic": "Wireless Sensing",
