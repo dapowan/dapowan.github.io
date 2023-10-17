@@ -42,6 +42,18 @@
   ],
   "publication": [
     {
+      "title": "enetrative AI: Making LLMs Comprehend the Physical World",
+      "url": "https://arxiv.org/abs/2310.09605",
+      "author": ["Huatao Xu", "Liying Han", "Mo Li", "Mani Srivastava"],
+      "author_order": 1,
+      "conf_or_jour": "ACM HotMobile 2024 (under review)",
+      "resource":{
+        "paper_url": "files/PenAI.pdf",
+        "website_url": "https://dapowan.github.io/wands_penetrative-ai/"
+      },
+      "selected": true
+    },
+    {
       "title": "Practically Adopting Human Activity Recognition",
       "url": "https://dl.acm.org/doi/abs/10.1145/3570361.3613299",
       "author": ["Huatao Xu", "Pengfei Zhou", "Rui Tan", "Mo Li"],
@@ -214,7 +226,7 @@
       "content": "Our paper \"PRMS\" is accepted by <span class=\"item-bold\">MSWiM 2018</span>."
     }
   ],
-  "news_show_count": 15,
+  "news_show_count": 17,
   "research": [
     {
       "topic": "Wireless Sensing",
