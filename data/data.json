@@ -49,6 +49,7 @@
       "conf_or_jour": "ACM HotMobile 2024 (under review)",
       "resource":{
         "paper_url": "files/PenAI.pdf",
+        "code_url": "https://github.com/dapowan/Penetrative-AI",
         "website_url": "https://dapowan.github.io/wands_penetrative-ai/"
       },
       "selected": true
