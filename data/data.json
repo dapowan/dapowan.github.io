@@ -46,7 +46,7 @@
       "url": "https://arxiv.org/abs/2310.09605",
       "author": ["Huatao Xu", "Liying Han", "Mo Li", "Mani Srivastava"],
       "author_order": 1,
-      "conf_or_jour": "arXiv",
+      "conf_or_jour": "arXiv 2023",
       "resource":{
         "paper_url": "files/PenAI.pdf",
         "code_url": "https://github.com/dapowan/Penetrative-AI",
