@@ -230,11 +230,61 @@
   "news_show_count": 15,
   "research": [
     {
+      "topic": "Penetrative AI",
+      "project": [
+        {
+          "name": "",
+          "intro": "This project investigates the potential of large language models (LLMs), such as ChatGPT, to process IoT sensor data and accomplish tasks in the physical world, extending their capabilities beyond natural language processing. We term this endeavor Penetrative AI -- where the embedded world knowledge in LLMs serves as a foundation, seamlessly integrated with the Cyber-Physical Systems (CPS) for perceiving and intervening in the physical world.",
+          "publication": [
+            {
+              "title": "Penetrative AI (Position Paper)",
+              "url": "https://arxiv.org/abs/2310.09605"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "topic": "Wearable Sensing",
+      "project": [
+        {
+          "name": "Human Activity Recognition",
+          "intro": "This project proposes a universal learning framework for mobile devices that employs physics-informed data augmentation techniques and IMU foundation models to address data heterogeneity in IMU-based HAR.",
+          "publication": [
+            {
+              "title": "UniHAR",
+              "url": "https://dl.acm.org/doi/abs/10.1145/3570361.3613299"
+            }
+          ]
+        },
+        {
+          "name": "Sensor Foundation Model",
+          "intro": "This project targets at designing foundation models for sensor data. We present a BERT-like self-supervised representation learning for IMU data, which extracts generalized features from abundant unlabeled sensor data and substantially reduces the supervised training overhead for down-stream task-specific sensing models.",
+          "publication": [
+            {
+              "title": "LIMU-BERT",
+              "url": "https://dl.acm.org/doi/10.1145/3485730.3485937"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "topic": "Wireless Sensing",
       "project": [
         {
+          "name": "mmRadar-based Gesture Recognition",
+          "intro": "Our research project aim at leveraging self-supervised learning to enhance millimeter-wave radar-based gesture recognition, addressing the challenge of overfitting due to scarce high-quality labeled data. We introduce RadarAE, a novel representation learning framework that utilizes unlabeled radar data to improve gesture recognition accuracy in few-shot learning scenarios.",
+          "publication": [
+            {
+              "title": "RadarAE",
+              "url": "https://ieeexplore.ieee.org/abstract/document/9918549"
+            }
+          ]
+        },
+        {
           "name": "RFID-based Localization",
-          "intro": "Analyze the features of RFID signals and design robust indoor localization to locate RFID tags accurately. We propose deep learning enhance holography (DLEH) to design adaptive localization model by combing RFID based synthetic aperture radar (SAR) and convolutional neural network (CNN). We also introduce compress sensing algorithms into RFID localization.",
+          "intro": "Our research project focus on the intricacies of RFID signal characteristics to develop a precise indoor localization system for RFID tags. We introduce an innovative approach named Deep Learning Enhanced Holography (DLEH), which integrates RFID-based Synthetic Aperture Radar (SAR) with Convolutional Neural Networks (CNN) to create a dynamic and adaptive localization model. Additionally, this project explores the integration of compressive sensing algorithms into RFID localization, further enhancing its efficiency and accuracy.",
           "publication": [
             {
               "title": "FaHo",
@@ -251,25 +301,6 @@
             {
               "title": "PRMS",
               "url": "https://dl.acm.org/doi/10.1145/3242102.3242138"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "topic": "Wearable Sensing",
-      "project": [
-        {
-          "name": "Human Activity Recognition",
-          "intro": "Recognize the human activity with IMU sensor data collected at mobile devices. We propose a BERT-like self-supervised representation learning for IMU data, which extracts generalized features and substantially reduces the supervised training overhead for down-stream task-specific sensing models.",
-          "publication": [
-            {
-              "title": "LIMU-BERT",
-              "url": "https://dl.acm.org/doi/10.1145/3485730.3485937"
-            },
-            {
-              "title": "UniHAR",
-              "url": "https://dl.acm.org/doi/abs/10.1145/3570361.3613299"
             }
           ]
         }
