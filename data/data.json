@@ -155,6 +155,10 @@
   ],
   "news":[
     {
+      "date": "Jan. 2024",
+      "content": "Our position paper \"Penetrative AI\" is accepted by <span class=\"item-bold\">HotMobile 2024</span>."
+    },
+    {
       "date": "Oct. 2023",
       "content": "Attend <span class=\"item-bold\">MobiCom 2023</span> in Madrid, Spain."
     },
@@ -237,7 +241,7 @@
           "intro": "This project investigates the potential of large language models (LLMs), such as ChatGPT, to process IoT sensor data and accomplish tasks in the physical world, extending their capabilities beyond natural language processing. We term this endeavor Penetrative AI -- where the embedded world knowledge in LLMs serves as a foundation, seamlessly integrated with the Cyber-Physical Systems (CPS) for perceiving and intervening in the physical world.",
           "publication": [
             {
-              "title": "Penetrative AI (Position Paper)",
+              "title": "Penetrative AI (HotMobile)",
               "url": "https://arxiv.org/abs/2310.09605"
             }
           ]
@@ -259,7 +263,7 @@
         },
         {
           "name": "Sensor Foundation Model",
-          "intro": "This project targets at designing foundation models for sensor data. We present a BERT-like self-supervised representation learning for IMU data, which extracts generalized features from abundant unlabeled sensor data and substantially reduces the supervised training overhead for down-stream task-specific sensing models.",
+          "intro": "This project targets designing foundation models for sensor data. We present a BERT-like self-supervised representation learning for IMU data, which extracts generalized features from abundant unlabeled sensor data and substantially reduces the supervised training overhead for down-stream task-specific sensing models.",
           "publication": [
             {
               "title": "LIMU-BERT",
@@ -274,7 +278,7 @@
       "project": [
         {
           "name": "mmRadar-based Gesture Recognition",
-          "intro": "Our research project aim at leveraging self-supervised learning to enhance millimeter-wave radar-based gesture recognition, addressing the challenge of overfitting due to scarce high-quality labeled data. We introduce RadarAE, a novel representation learning framework that utilizes unlabeled radar data to improve gesture recognition accuracy in few-shot learning scenarios.",
+          "intro": "Our research project aims at leveraging self-supervised learning to enhance millimeter-wave radar-based gesture recognition, addressing the challenge of overfitting due to scarce high-quality labeled data. We introduce RadarAE, a novel representation learning framework that utilizes unlabeled radar data to improve gesture recognition accuracy in few-shot learning scenarios.",
           "publication": [
             {
               "title": "RadarAE",
@@ -284,7 +288,7 @@
         },
         {
           "name": "RFID-based Localization",
-          "intro": "Our research project focus on the intricacies of RFID signal characteristics to develop a precise indoor localization system for RFID tags. We introduce an innovative approach named Deep Learning Enhanced Holography (DLEH), which integrates RFID-based Synthetic Aperture Radar (SAR) with Convolutional Neural Networks (CNN) to create a dynamic and adaptive localization model. Additionally, this project explores the integration of compressive sensing algorithms into RFID localization, further enhancing its efficiency and accuracy.",
+          "intro": "Our research project focuses on the intricacies of RFID signal characteristics to develop a precise indoor localization system for RFID tags. We introduce an innovative approach named Deep Learning Enhanced Holography (DLEH), which integrates RFID-based Synthetic Aperture Radar (SAR) with Convolutional Neural Networks (CNN) to create a dynamic and adaptive localization model. Additionally, this project explores the integration of compressive sensing algorithms into RFID localization, further enhancing its efficiency and accuracy.",
           "publication": [
             {
               "title": "FaHo",
@@ -309,7 +313,7 @@
   ],
   "language": ["Chinese", "English"],
   "hobby": ["Travelling", "Swimming", "Singing", "Cooking"],
-  "services": ["Reviewer for TOSN'23","Reviewer for TMC'23"],
-  "information": "Latest updated by December 2023",
+  "services": ["Reviewer for TOSN'23","Reviewer for TMC'23", "TPC for FMSys'24"],
+  "information": "Latest updated by January 2024",
   "message": ""
 }
