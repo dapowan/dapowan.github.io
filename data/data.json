@@ -49,6 +49,7 @@
       "conf_or_jour": "ACM HotMobile 2024",
       "resource":{
         "paper_url": "files/PenAI.pdf",
+        "slide_url": "files/PenAI.pptx",
         "code_url": "https://github.com/dapowan/Penetrative-AI",
         "website_url": "https://dapowan.github.io/wands_penetrative-ai/"
       },
@@ -313,7 +314,7 @@
   ],
   "language": ["Chinese", "English"],
   "hobby": ["Travelling", "Swimming", "Singing", "Cooking"],
-  "services": ["Reviewer for TOSN'23","Reviewer for TMC'23", "TPC for FMSys'24"],
+  "services": ["Reviewer for TOSN'23", "Reviewer for TMC'23", "TPC for FMSys'24"],
   "information": "Latest updated by January 2024",
   "message": ""
 }
