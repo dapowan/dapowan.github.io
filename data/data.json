@@ -147,6 +147,7 @@
     }
   ],
   "honor_award": [
+    "2024 HotMobile Student Travel Grant",
     "2022 GetMobile Research Highlight",
     "2021 SenSys Best Paper Runner-up",
     "2019 Shanghai Outstanding Graduate Student",
@@ -232,7 +233,7 @@
       "content": "Our paper \"PRMS\" is accepted by <span class=\"item-bold\">MSWiM 2018</span>."
     }
   ],
-  "news_show_count": 15,
+  "news_show_count": 12,
   "research": [
     {
       "topic": "Penetrative AI",
@@ -315,6 +316,6 @@
   "language": ["Chinese", "English"],
   "hobby": ["Travelling", "Swimming", "Singing", "Cooking"],
   "services": ["TPC for FMSys'24", "Reviewer for TMC'23", "Reviewer for TOSN'23"],
-  "information": "Latest updated by January 2024",
+  "information": "Latest updated by February 2024",
   "message": ""
 }
