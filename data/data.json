@@ -19,9 +19,9 @@
   "website": "dapowan@github.io",
   "github": "https://github.com/dapowan",
   "scholar": "https://scholar.google.com/citations?user=QafNtQIAAAAJ",
-  "city": "Hong Kong (SAR)",
+  "city": "Hong Kong",
   "avatar": "images/default.JPG",
-  "introduction": "I am currently a postdoctoral researcher at The Hong Kong University of Science and Technology, advised by Prof. <a href=\"https://cse.hkust.edu.hk/~lim/\">Mo Li</a>. Before that, I obtained my Ph.D. degree from Nanyang Technological University, supervised by Prof. <a href=\"https://cse.hkust.edu.hk/~lim/\">Mo Li</a> and and co-supervised by Assoc. Prof. <a href=\"https://personal.ntu.edu.sg/tanrui/\">Rui Tan</a>.\n                                I received my B.S. degree from Nanjing University and Master's degree from Shanghai Jiao Tong University.\n                                <br>\n                                <br>\n                                I am broadly interested in ubiquitous computing, especially in related fields of building wearable-based or wireless-based sensing interfaces to bridge gaps between computing resources and human's daily lives. My current research focuses on wearable-based sensing, including human activity recognition, localization, authentication, etc.\n                                <br>",
+  "introduction": "I am currently a postdoctoral researcher at The Hong Kong University of Science and Technology, advised by Prof. <a href=\"https://cse.hkust.edu.hk/~lim/\">Mo Li</a>. Before that, I obtained my Ph.D. degree from Nanyang Technological University, supervised by Prof. <a href=\"https://cse.hkust.edu.hk/~lim/\">Mo Li</a> and co-supervised by Assoc. Prof. <a href=\"https://personal.ntu.edu.sg/tanrui/\">Rui Tan</a>.\n                                I received my B.S. degree from Nanjing University and Master's degree from Shanghai Jiao Tong University.\n                                <br>\n                                <br>\n                                I am broadly interested in ubiquitous computing, especially in related fields of building wearable-based or wireless-based sensing interfaces to bridge gaps between computing resources and human's daily lives. My current research focuses on wearable-based sensing, including human activity recognition, localization, authentication, etc.\n                                <br>",
   "cv_url": "files/resume_xht.pdf",
   "education": [
      {
@@ -46,7 +46,7 @@
       "url": "https://arxiv.org/abs/2310.09605",
       "author": ["Huatao Xu", "Liying Han", "Qirui Yang", "Mo Li", "Mani Srivastava"],
       "author_order": 1,
-      "conf_or_jour": "ACM HotMobile 2024",
+      "conf_or_jour": "ACL Findings 2024",
       "resource":{
         "paper_url": "files/PenAI.pdf",
         "slide_url": "files/PenAI.pptx",
@@ -158,12 +158,16 @@
   ],
   "news":[
     {
+      "date": "May 2024",
+      "content": "Our full paper \"Penetrative AI\" is accepted by <span class=\"item-bold\">ACL 2024</span>."
+    },
+    {
       "date": "Apr. 2024",
       "content": "Successfully defend my Ph.D. thesis."
     },
     {
       "date": "Jan. 2024",
-      "content": "Our position paper \"Penetrative AI\" is accepted by <span class=\"item-bold\">HotMobile 2024</span>."
+      "content": "Our short paper \"Penetrative AI\" is accepted by <span class=\"item-bold\">HotMobile 2024</span>."
     },
     {
       "date": "Oct. 2023",
@@ -320,7 +324,7 @@
   ],
   "language": ["Chinese", "English"],
   "hobby": ["Travelling", "Swimming", "Singing", "Cooking"],
-  "services": ["TPC for FMSys'24", "Reviewer for TMC'23", "Reviewer for TOSN'23"],
+  "services": ["Reviewer for IMWUT'24", "TPC for FMSys'24", "Reviewer for TMC'23", "Reviewer for TOSN'23"],
   "information": "Latest updated by May 2024",
   "message": ""
 }
