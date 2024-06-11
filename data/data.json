@@ -48,7 +48,7 @@
       "author_order": 1,
       "conf_or_jour": "ACL Findings 2024",
       "resource":{
-        "paper_url": "files/PenAI.pdf",
+        "paper_url": "files/PenAI_ACL.pdf",
         "slide_url": "files/PenAI.pptx",
         "code_url": "https://github.com/dapowan/Penetrative-AI",
         "website_url": "https://dapowan.github.io/wands_penetrative-ai/"
@@ -325,6 +325,6 @@
   "language": ["Chinese", "English"],
   "hobby": ["Travelling", "Swimming", "Singing", "Cooking"],
   "services": ["Reviewer for IMWUT'24", "TPC for FMSys'24", "Reviewer for TMC'23", "Reviewer for TOSN'23"],
-  "information": "Latest updated by May 2024",
+  "information": "Latest updated by June 2024",
   "message": ""
 }
