@@ -252,7 +252,7 @@
           "intro": "This project investigates the potential of large language models (LLMs), such as ChatGPT, to process IoT sensor data and accomplish tasks in the physical world, extending their capabilities beyond natural language processing. We term this endeavor Penetrative AI -- where the embedded world knowledge in LLMs serves as a foundation, seamlessly integrated with the Cyber-Physical Systems (CPS) for perceiving and intervening in the physical world.",
           "publication": [
             {
-              "title": "Penetrative AI (HotMobile)",
+              "title": "Penetrative AI",
               "url": "https://arxiv.org/abs/2310.09605"
             }
           ]
