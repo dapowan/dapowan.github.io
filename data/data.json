@@ -147,6 +147,7 @@
     }
   ],
   "honor_award": [
+    "2024 NTU CCDS Outstanding PhD Thesis Award",
     "2024 HotMobile Student Travel Grant",
     "2022 GetMobile Research Highlight",
     "2021 SenSys Best Paper Runner-up",
@@ -157,6 +158,10 @@
     "2016 Nanjing University Inspirational Scholarship"
   ],
   "news":[
+    {
+      "date": "June 2024",
+      "content": "I received <span class=\"item-bold\">NTU CCDS Outstanding PhD Thesis Award</span>."
+    },
     {
       "date": "May 2024",
       "content": "Our full paper \"Penetrative AI\" is accepted by <span class=\"item-bold\">ACL 2024</span>."
