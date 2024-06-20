@@ -453,6 +453,8 @@ a:hover{
 .item-conf-jour{
 	color: #e74c3c;
 	font-weight: bold;
+	/*display: inline-block;*/
+	/*font-style: italic;*/
 }
 
 .item-major{
@@ -728,5 +730,14 @@ tbody>tr:hover{
 
 .link-empty{
 	width: 1.5rem;
+	display: inline-block;
+}
+
+.item-author{
+	margin-top: -0.5rem;
+	font-style: italic;
+}
+
+.item-title-a{
 	display: inline-block;
 }
