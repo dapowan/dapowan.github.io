@@ -160,7 +160,7 @@
   "news":[
     {
       "date": "Jun. 2024",
-      "content": "I received <span class=\"item-bold\">NTU CCDS Outstanding PhD Thesis Award</span>."
+      "content": "I receive <a target=\"_blank\" href=\"https://www.ntu.edu.sg/computing/news-events/news/detail/ccds-outstanding-phd-thesis-award-2024\">CCDS Outstanding PhD Thesis Award</a> at NTU."
     },
     {
       "date": "May 2024",
@@ -168,11 +168,15 @@
     },
     {
       "date": "Apr. 2024",
-      "content": "I join <span class=\"item-bold\">HKUST</span>."
+      "content": "Successfully defend my Ph.D. thesis."
     },
     {
       "date": "Apr. 2024",
-      "content": "Successfully defend my Ph.D. thesis."
+      "content": "\"Penetrative AI\" is featured in the <a target=\"_blank\" href=\"https://cacm.acm.org/news/safety-fears-raised-over-risks-of-penetrative-ai/\">Communications of the ACM</a> and has sparked widespread discussion and interest."
+    },
+    {
+      "date": "March. 2024",
+      "content": "I join <span class=\"item-bold\">HKUST</span>."
     },
     {
       "date": "Jan. 2024",
@@ -188,7 +192,7 @@
     },
     {
       "date": "Aug. 2022",
-      "content": "Our paper \"LIMU-BERT\" is invited to publish in <span class=\"item-bold\">GetMobile</span> as a <a href=\"files/LIMU-BERT_GetMobile.pdf\">research highlight</a>."
+      "content": "Our paper \"LIMU-BERT\" is invited to publish in <span class=\"item-bold\">GetMobile</span> as a <a target=\"_blank\" href=\"files/LIMU-BERT_GetMobile.pdf\">research highlight</a>."
     },
     {
       "date": "Aug. 2022",
