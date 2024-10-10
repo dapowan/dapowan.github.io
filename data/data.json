@@ -159,6 +159,10 @@
   ],
   "news":[
     {
+      "date": "Oct. 2024",
+      "content": "Our paper \"ContrastSense\" is accepted by <span class=\"item-bold\">IMWUT (Ubicomp) 2025</span>."
+    },
+    {
       "date": "Jun. 2024",
       "content": "I receive <a target=\"_blank\" href=\"https://www.ntu.edu.sg/computing/news-events/news/detail/ccds-outstanding-phd-thesis-award-2024\">CCDS Outstanding PhD Thesis Award</a> at NTU."
     },
@@ -338,6 +342,6 @@
   "language": ["Chinese", "English"],
   "hobby": ["Travelling", "Swimming", "Singing", "Cooking"],
   "services": ["Reviewer for IMWUT'24", "TPC for FMSys'24", "Reviewer for TMC'23", "Reviewer for TOSN'23"],
-  "information": "Latest updated by June 2024",
+  "information": "Latest updated by October 2024",
   "message": ""
 }
