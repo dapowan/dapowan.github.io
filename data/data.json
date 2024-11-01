@@ -42,6 +42,17 @@
   ],
   "publication": [
     {
+      "title": "ContrastSense: Domain-invariant Contrastive Learning for In-the-wild Wearable Sensing",
+      "url": "",
+      "author": ["Gaole Dai", "Huatao Xu", "Hyungjun Yoon", "Mo Li", "Rui Tan", "Sung-Ju Lee"],
+      "author_order": 2,
+      "conf_or_jour": "ACM IMWUT (UbiComp) 2025",
+      "resource":{
+        "paper_url": "files/AdaRF.pdf"
+      },
+      "selected": true
+    },
+    {
       "title": "Penetrative AI: Making LLMs Comprehend the Physical World",
       "url": "https://arxiv.org/abs/2310.09605",
       "author": ["Huatao Xu", "Liying Han", "Qirui Yang", "Mo Li", "Mani Srivastava"],
@@ -342,6 +353,6 @@
   "language": ["Chinese", "English"],
   "hobby": ["Travelling", "Swimming", "Singing", "Cooking"],
   "services": ["Reviewer for IMWUT'24", "TPC for FMSys'24", "Reviewer for TMC'23", "Reviewer for TOSN'23"],
-  "information": "Latest updated by October 2024",
+  "information": "Latest updated by November 2024",
   "message": ""
 }
