@@ -48,7 +48,7 @@
       "author_order": 2,
       "conf_or_jour": "ACM IMWUT (UbiComp) 2025",
       "resource":{
-        "paper_url": "files/AdaRF.pdf"
+        "paper_url": "files/ContrastSense.pdf"
       },
       "selected": true
     },
@@ -352,7 +352,7 @@
   ],
   "language": ["Chinese", "English"],
   "hobby": ["Travelling", "Swimming", "Singing", "Cooking"],
-  "services": ["Reviewer for IMWUT'24", "TPC for FMSys'24", "Reviewer for TMC'23", "Reviewer for TOSN'23"],
+  "services": ["Reviewer for TKDE'24", "Reviewer for IMWUT'24", "TPC for FMSys'24", "Reviewer for TMC'23", "Reviewer for TOSN'23"],
   "information": "Latest updated by November 2024",
   "message": ""
 }
