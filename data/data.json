@@ -43,12 +43,13 @@
   "publication": [
     {
       "title": "ContrastSense: Domain-invariant Contrastive Learning for In-the-wild Wearable Sensing",
-      "url": "",
+      "url": "https://dl.acm.org/doi/abs/10.1145/3699744",
       "author": ["Gaole Dai", "Huatao Xu", "Hyungjun Yoon", "Mo Li", "Rui Tan", "Sung-Ju Lee"],
       "author_order": 2,
       "conf_or_jour": "ACM IMWUT (UbiComp) 2025",
       "resource":{
-        "paper_url": "files/ContrastSense.pdf"
+        "paper_url": "files/ContrastSense.pdf",
+        "code_url": "https://github.com/MaginaDai/ContrastSense-Public"
       },
       "selected": true
     },
@@ -307,6 +308,10 @@
             {
               "title": "LIMU-BERT",
               "url": "https://dl.acm.org/doi/10.1145/3485730.3485937"
+            },
+            {
+              "title": "ContrastSense",
+              "url": "https://dl.acm.org/doi/abs/10.1145/3699744"
             }
           ]
         }
