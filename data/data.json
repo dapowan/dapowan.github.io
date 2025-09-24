@@ -42,6 +42,29 @@
   ],
   "publication": [
     {
+      "title": "AutoLife: Automatic Life Journaling with Smartphones and LLMs",
+      "url": "https://arxiv.org/abs/2412.15714",
+      "author": ["Huatao Xu", "Zilin Zeng", "Panrong Tong", "Mo Li", "Mani Srivastava"],
+      "author_order": 1,
+      "conf_or_jour": "ACM IMWUT (UbiComp) 2025",
+      "resource":{
+        "paper_url": ""
+      },
+      "selected": true
+    },
+    {
+      "title": "Experience Paper: Adopting Activity Recognition in On-demand Food Delivery Business",
+      "url": "",
+      "author": ["Huatao Xu*", "Yanzhang*", "Wei Gao", "Guobin Shen", "Mo Li"],
+      "author_order": 1,
+      "conf_or_jour": "ACM MobiCom 2025",
+      "resource":{
+        "paper_url": "files/LIMU-Experience.pdf",
+        "code_url": "https://github.com/WANDS-HKUST/LIMU-BERT_Experience"
+      },
+      "selected": true
+    },
+    {
       "title": "ContrastSense: Domain-invariant Contrastive Learning for In-the-wild Wearable Sensing",
       "url": "https://dl.acm.org/doi/10.1145/3699744",
       "author": ["Gaole Dai", "Huatao Xu", "Hyungjun Yoon", "Mo Li", "Rui Tan", "Sung-Ju Lee"],
@@ -193,6 +216,10 @@
     "2016 Nanjing University Inspirational Scholarship"
   ],
   "news":[
+    {
+      "date": "Sept. 2025",
+      "content": "Two papers \"AutoLife\" and \"WiMU\" are accepted by <span class=\"item-bold\">IMWUT (Ubicomp) 2025</span>."
+    },
     {
       "date": "June 2025",
       "content": "Our experience paper about nationwide deployment of \"LIMU-BERT\" is accepted by <span class=\"item-bold\">MobiCom 2025</span>."
