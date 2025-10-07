@@ -54,7 +54,7 @@
     },
     {
       "title": "Experience Paper: Adopting Activity Recognition in On-demand Food Delivery Business",
-      "url": "",
+      "url": "https://arxiv.org/abs/2509.24303",
       "author": ["Huatao Xu*", "Yanzhang*", "Wei Gao", "Guobin Shen", "Mo Li"],
       "author_order": 1,
       "conf_or_jour": "ACM MobiCom 2025",
@@ -416,6 +416,6 @@
   "language": ["Chinese", "English"],
   "hobby": ["Travelling", "Swimming", "Singing", "Cooking"],
   "services": ["Registration Chair for MobiCom'25", "Reviewer for IOT'25", "Reviewer for TIOT'25", "Reviewer for IMWUT'25", "Reviewer for TKDE'24", "Reviewer for IMWUT'24", "TPC for FMSys'24", "Reviewer for TMC'23", "Reviewer for TOSN'23"],
-  "information": "Latest updated by June 2025",
+  "information": "Latest updated by October 2025",
   "message": ""
 }
