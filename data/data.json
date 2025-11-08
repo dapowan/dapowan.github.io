@@ -42,6 +42,17 @@
   ],
   "publication": [
     {
+      "title": "Expand Heterogeneous Learning Systems with Selective Multi-Source Knowledge Fusion",
+      "url": "https://arxiv.org/abs/2412.04060",
+      "author": ["Gaole Dai", "Huatao Xu", "Yifan Yang", "Rui Tan", "Mo Li"],
+      "author_order": 2,
+      "conf_or_jour": "AAAI 2025",
+      "resource":{
+        "paper_url": ""
+      },
+      "selected": true
+    },
+    {
       "title": "AutoLife: Automatic Life Journaling with Smartphones and LLMs",
       "url": "https://arxiv.org/abs/2412.15714",
       "author": ["Huatao Xu", "Zilin Zeng", "Panrong Tong", "Mo Li", "Mani Srivastava"],
@@ -60,6 +71,7 @@
       "conf_or_jour": "ACM MobiCom 2025",
       "resource":{
         "paper_url": "files/LIMU-Experience.pdf",
+        "slide_url": "files/LIMU-MobiCom.pptx",
         "code_url": "https://github.com/WANDS-HKUST/LIMU-BERT_Experience"
       },
       "selected": true
@@ -216,6 +228,10 @@
     "2016 Nanjing University Inspirational Scholarship"
   ],
   "news":[
+    {
+      "date": "Nov. 2025",
+      "content": "One paper \"HaKT\" is accepted by <span class=\"item-bold\">AAAI 2025</span>."
+    },
     {
       "date": "Sept. 2025",
       "content": "Two papers \"AutoLife\" and \"WiMU\" are accepted by <span class=\"item-bold\">IMWUT (Ubicomp) 2025</span>."
@@ -416,6 +432,6 @@
   "language": ["Chinese", "English"],
   "hobby": ["Travelling", "Swimming", "Singing", "Cooking"],
   "services": ["Registration Chair for MobiCom'25", "Reviewer for IOT'25", "Reviewer for TIOT'25", "Reviewer for IMWUT'25", "Reviewer for TKDE'24", "Reviewer for IMWUT'24", "TPC for FMSys'24", "Reviewer for TMC'23", "Reviewer for TOSN'23"],
-  "information": "Latest updated by October 2025",
+  "information": "Latest updated by November 2025",
   "message": ""
 }
