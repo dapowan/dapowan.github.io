@@ -46,7 +46,7 @@
       "url": "https://arxiv.org/abs/2412.04060",
       "author": ["Gaole Dai", "Huatao Xu", "Yifan Yang", "Rui Tan", "Mo Li"],
       "author_order": 2,
-      "conf_or_jour": "AAAI 2025",
+      "conf_or_jour": "AAAI 2026",
       "resource":{
         "paper_url": "files/HaT.pdf"
       },
@@ -230,7 +230,7 @@
   "news":[
     {
       "date": "Nov. 2025",
-      "content": "One paper \"HaT\" is accepted by <span class=\"item-bold\">AAAI 2025</span>."
+      "content": "One paper \"HaT\" is accepted by <span class=\"item-bold\">AAAI 2026</span>."
     },
     {
       "date": "Sept. 2025",
