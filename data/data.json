@@ -42,13 +42,13 @@
   ],
   "publication": [
     {
-      "title": "Expand Heterogeneous Learning Systems with Selective Multi-Source Knowledge Fusion",
+      "title": "Learning System Expansion with Efficient Heterogeneity-aware Knowledge Transfer",
       "url": "https://arxiv.org/abs/2412.04060",
       "author": ["Gaole Dai", "Huatao Xu", "Yifan Yang", "Rui Tan", "Mo Li"],
       "author_order": 2,
       "conf_or_jour": "AAAI 2025",
       "resource":{
-        "paper_url": ""
+        "paper_url": "files/HaT.pdf"
       },
       "selected": true
     },
@@ -230,7 +230,7 @@
   "news":[
     {
       "date": "Nov. 2025",
-      "content": "One paper \"HaKT\" is accepted by <span class=\"item-bold\">AAAI 2025</span>."
+      "content": "One paper \"HaT\" is accepted by <span class=\"item-bold\">AAAI 2025</span>."
     },
     {
       "date": "Sept. 2025",
