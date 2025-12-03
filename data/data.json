@@ -54,12 +54,24 @@
     },
     {
       "title": "AutoLife: Automatic Life Journaling with Smartphones and LLMs",
-      "url": "https://arxiv.org/abs/2412.15714",
+      "url": "https://dl.acm.org/doi/10.1145/3770683",
       "author": ["Huatao Xu", "Zilin Zeng", "Panrong Tong", "Mo Li", "Mani Srivastava"],
       "author_order": 1,
       "conf_or_jour": "ACM IMWUT (UbiComp) 2025",
       "resource":{
-        "paper_url": ""
+        "paper_url": "files/AutoLife.pdf",
+        "code_url": "https://github.com/WANDS-HKUST/AutoLife"
+      },
+      "selected": true
+    },
+    {
+      "title": "WiMU: Real-time Indoor Localization via Wi-Fi/IMU Fusion with Minimal Site Survey",
+      "url": "https://dl.acm.org/doi/10.1145/3770667",
+      "author": ["Qirui Yang","Huatao Xu", "Mengxuan Song", "Mo Li"],
+      "author_order": 2,
+      "conf_or_jour": "ACM IMWUT (UbiComp) 2025",
+      "resource":{
+        "paper_url": "files/WiMU.pdf"
       },
       "selected": true
     },
@@ -432,6 +444,6 @@
   "language": ["Chinese", "English"],
   "hobby": ["Travelling", "Swimming", "Singing", "Cooking"],
   "services": ["Registration Chair for MobiCom'25", "Reviewer for IOT'25", "Reviewer for TIOT'25", "Reviewer for IMWUT'25", "Reviewer for TKDE'24", "Reviewer for IMWUT'24", "TPC for FMSys'24", "Reviewer for TMC'23", "Reviewer for TOSN'23"],
-  "information": "Latest updated by November 2025",
+  "information": "Latest updated by December 2025",
   "message": ""
 }
