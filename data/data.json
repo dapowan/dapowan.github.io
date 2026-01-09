@@ -21,7 +21,7 @@
   "scholar": "https://scholar.google.com/citations?user=QafNtQIAAAAJ",
   "city": "Hong Kong",
   "avatar": "images/default.JPG",
-  "introduction": "Huatao is a postdoctoral researcher at The Hong Kong University of Science and Technology, advised by Prof. <a href=\"https://cse.hkust.edu.hk/~lim/\">Mo Li</a>. He obtained Ph.D. degree from Nanyang Technological University, supervised by Prof. <a href=\"https://cse.hkust.edu.hk/~lim/\">Mo Li</a> and co-supervised by Prof. <a href=\"https://personal.ntu.edu.sg/tanrui/\">Rui Tan</a>.\n                                Before that, he received B.S. degree from Nanjing University and Master's degree from Shanghai Jiao Tong University.\n                                <br>\n                                <br>\n                                He is broadly interested in ubiquitous computing, especially in related fields of building wearable-based or wireless-based sensing interfaces to bridge gaps between computing resources and human's daily lives. His current research focuses on wearable-based sensing, including human activity recognition, localization, authentication, etc.\n                                <br>",
+  "introduction": "Huatao is a postdoctoral researcher at The Hong Kong University of Science and Technology, advised by Prof. <a href=\"https://cse.hkust.edu.hk/~lim/\">Mo Li</a>. He obtained Ph.D. degree from Nanyang Technological University, supervised by Prof. <a href=\"https://cse.hkust.edu.hk/~lim/\">Mo Li</a> and co-supervised by Prof. <a href=\"https://personal.ntu.edu.sg/tanrui/\">Rui Tan</a>.\n                                Before that, he received B.S. degree from Nanjing University and Master's degree from Shanghai Jiao Tong University.\n                                <br>\n                                <br>\n                                He is broadly interested in ubiquitous computing, especially in related fields of building smart interfaces or agents to bridge gaps between computing resources and human's daily lives.\n                                <br>",
   "cv_url": "files/resume_xht.pdf",
   "education": [
      {
@@ -53,6 +53,17 @@
       "selected": true
     },
     {
+      "title": "A New IoT Paradigm in the Era of Large Language Models: Penetrative AI",
+      "url": "https://cccf.hrbeu.edu.cn/article/doi/10.11991/cccf.202511103",
+      "author": ["Huatao Xu", "Qirui Yang", "Mo Li"],
+      "author_order": 1,
+      "conf_or_jour": "Computing Magazine of the CCF 2025",
+      "resource":{
+        "paper_url": ""
+      },
+      "selected": false
+    },
+    {
       "title": "AutoLife: Automatic Life Journaling with Smartphones and LLMs",
       "url": "https://dl.acm.org/doi/10.1145/3770683",
       "author": ["Huatao Xu", "Zilin Zeng", "Panrong Tong", "Mo Li", "Mani Srivastava"],
@@ -77,7 +88,7 @@
     },
     {
       "title": "Experience Paper: Adopting Activity Recognition in On-demand Food Delivery Business",
-      "url": "https://arxiv.org/abs/2509.24303",
+      "url": "https://dl.acm.org/doi/10.1145/3680207.3765261",
       "author": ["Huatao Xu*", "Yanzhang*", "Wei Gao", "Guobin Shen", "Mo Li"],
       "author_order": 1,
       "conf_or_jour": "ACM MobiCom 2025",
@@ -240,6 +251,10 @@
     "2016 Nanjing University Inspirational Scholarship"
   ],
   "news":[
+    {
+      "date": "Nov. 2025",
+      "content": "Our paper \"Penetrative AI\" is featured by <a target=\"_blank\" href=\"https://cccf.hrbeu.edu.cn/article/doi/10.11991/cccf.202511103\">Computing Magazine of the CCF 2025</a>"
+    },
     {
       "date": "Nov. 2025",
       "content": "One paper \"HaT\" is accepted by <span class=\"item-bold\">AAAI 2026</span>."
@@ -444,6 +459,6 @@
   "language": ["Chinese", "English"],
   "hobby": ["Travelling", "Swimming", "Singing", "Cooking"],
   "services": ["Registration Chair for MobiCom'25", "Reviewer for IOT'25", "Reviewer for TIOT'25", "Reviewer for IMWUT'25", "Reviewer for TKDE'24", "Reviewer for IMWUT'24", "TPC for FMSys'24", "Reviewer for TMC'23", "Reviewer for TOSN'23"],
-  "information": "Latest updated by December 2025",
+  "information": "Latest updated by January 2026",
   "message": ""
 }
