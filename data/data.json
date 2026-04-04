@@ -263,6 +263,10 @@
   ],
   "news":[
     {
+      "date": "Mar. 2026",
+      "content": "Our paper \"RF Super Resolution\" is accepted by <span class=\"item-bold\">MobiSys 2026</span>."
+    },
+    {
       "date": "Nov. 2025",
       "content": "Our paper \"Penetrative AI\" is featured by <a target=\"_blank\" href=\"https://cccf.hrbeu.edu.cn/article/doi/10.11991/cccf.202511103\">Computing Magazine of the CCF 2025</a>"
     },
