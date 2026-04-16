@@ -53,6 +53,17 @@
       "selected": true
     },
     {
+      "title": "RF Super Resolution: A Deep Learning Approach to Spatial Enhancement for LoRa",
+      "url": "",
+      "author": ["Andreas Kuster", "Huatao Xu", "Rui Tan", "Mo Li"],
+      "author_order": 2,
+      "conf_or_jour": "MobiSys 2026",
+      "resource":{
+        "paper_url": "files/RF-SR.pdf"
+      },
+      "selected": true
+    },
+    {
       "title": "Learning System Expansion with Efficient Heterogeneity-aware Knowledge Transfer",
       "url": "https://arxiv.org/abs/2412.04060",
       "author": ["Gaole Dai", "Huatao Xu", "Yifan Yang", "Rui Tan", "Mo Li"],
