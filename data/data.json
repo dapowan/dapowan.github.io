@@ -54,7 +54,7 @@
     },
     {
       "title": "RF Super Resolution: A Deep Learning Approach to Spatial Enhancement for LoRa",
-      "url": "",
+      "url": "https://dl.acm.org/doi/10.1145/3745756.3809216",
       "author": ["Andreas Kuster", "Huatao Xu", "Rui Tan", "Mo Li"],
       "author_order": 2,
       "conf_or_jour": "MobiSys 2026",
