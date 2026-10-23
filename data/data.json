@@ -274,6 +274,10 @@
   ],
   "news":[
     {
+      "date": "Oct. 2026",
+      "content": "Our paper \"CollabTrans\" is accepted by <span class=\"item-bold\">TMC 2026</span>."
+    },
+    {
       "date": "Mar. 2026",
       "content": "Our paper \"RF Super Resolution\" is accepted by <span class=\"item-bold\">MobiSys 2026</span>."
     },
@@ -485,6 +489,6 @@
   "language": ["Chinese", "English"],
   "hobby": ["Travelling", "Swimming", "Singing", "Cooking"],
   "services": ["Registration Chair for MobiCom'25", "Reviewer for IOT'25", "Reviewer for TIOT'25", "Reviewer for IMWUT'25", "Reviewer for TKDE'24", "Reviewer for IMWUT'24", "TPC for FMSys'24", "Reviewer for TMC'23", "Reviewer for TOSN'23"],
-  "information": "Latest updated by March 2026",
+  "information": "Latest updated by October 2026",
   "message": ""
 }
